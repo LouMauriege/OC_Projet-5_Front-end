@@ -79,7 +79,6 @@ describe('MeComponent', () => {
     mockUserService.getById.mockReturnValue(of(mockUser));
 
     fixture.detectChanges();
-    // component.ngOnInit();
 
     expect(mockUserService.getById).toHaveBeenCalledWith('1');
     expect(component.user).toEqual(mockUser);

@@ -1,6 +1,6 @@
 import { HttpClientModule } from '@angular/common/http';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import {  ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
@@ -24,10 +24,8 @@ describe('FormComponent', () => {
       admin: true
     }
   } 
-
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-
       imports: [
         RouterTestingModule,
         HttpClientModule,
@@ -45,8 +43,7 @@ describe('FormComponent', () => {
         SessionApiService
       ],
       declarations: [FormComponent]
-    })
-      .compileComponents();
+    }).compileComponents();
 
     fixture = TestBed.createComponent(FormComponent);
     component = fixture.componentInstance;
