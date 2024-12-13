@@ -5,16 +5,19 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { expect } from '@jest/globals';
 
 import { AppComponent } from './app.component';
+import { of } from 'rxjs';
 import { Router } from '@angular/router';
 import { SessionService } from './services/session.service';
-import { of } from 'rxjs';
+import { AuthService } from './features/auth/services/auth.service';
 
 
 describe('AppComponent', () => {
   let app: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
+
   let mockRouter: any;
   let mockSessionService: any;
+  let mockAuthService: any;
 
   beforeEach(async () => {
     mockRouter = {
@@ -25,35 +28,34 @@ describe('AppComponent', () => {
       logOut: jest.fn(),
       $isLogged: jest.fn().mockReturnValue(of(true))
     }
-
     await TestBed.configureTestingModule({
-      declarations: [
-        AppComponent
-      ],
       providers: [
         { provide: Router, useValue: mockRouter },
-        { provide: SessionService, useValue: mockSessionService }
+        { provide: SessionService, useValue: mockSessionService },
+        { provide: AuthService, useValue: mockAuthService }
       ],
       imports: [
         RouterTestingModule,
         HttpClientModule,
         MatToolbarModule
       ],
+      declarations: [
+        AppComponent
+      ],
     }).compileComponents();
 
     fixture = TestBed.createComponent(AppComponent);
     app = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
   it('should create the app', () => {
     expect(app).toBeTruthy();
   });
 
-  // it('should log out and navigate to home', () => {
-  //   app.logout();
+  it('should log out and navigate to home', () => {
+    app.logout();
 
-  //   expect(mockSessionService.logOut).toHaveBeenCalled();
-  //   expect(mockRouter.navigate).toHaveBeenCalledWith(['']);
-  // });
+    expect(mockSessionService.logOut).toHaveBeenCalled();
+    expect(mockRouter.navigate).toHaveBeenCalledWith(['']);
+  });
 });
