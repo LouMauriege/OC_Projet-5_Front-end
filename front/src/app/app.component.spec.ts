@@ -52,6 +52,14 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
+  it('should call $isLogged() from SessionService and return an observable', (done) => {
+    app.$isLogged().subscribe((isLogged) => {
+      expect(mockSessionService.$isLogged).toHaveBeenCalled();
+      expect(isLogged).toBe(true);
+      done(); // Ensure the test completes only after the subscription resolves
+    });
+  });
+
   it('should log out and navigate to home', () => {
     app.logout();
 

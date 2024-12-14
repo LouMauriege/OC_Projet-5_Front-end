@@ -84,6 +84,14 @@ describe('MeComponent', () => {
     expect(component.user).toEqual(mockUser);
   });
 
+  it('should navigate back when back() is called', () => {
+    jest.spyOn(window.history, 'back');
+    
+    component.back();
+
+    expect(window.history.back).toHaveBeenCalled();
+  });
+
   it('should delete the user and log out', () => {
     mockUserService.delete.mockReturnValue(of(null));
 
