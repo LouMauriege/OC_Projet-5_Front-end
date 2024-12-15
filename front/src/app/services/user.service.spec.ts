@@ -11,7 +11,14 @@ describe('UserService', () => {
   let httpMock: HttpTestingController;
 
   const mockUser: User = {
-    id: 1, email: 'toto@mail.com', lastName: 'tata', firstName: 'toto', admin: true, password: 'passwd', createdAt: new Date(), updatedAt: new Date()
+    id: 1,
+    email: 'toto@mail.com', 
+    lastName: 'tata', 
+    firstName: 'toto', 
+    admin: true, 
+    password: 'passwd', 
+    createdAt: new Date(), 
+    updatedAt: new Date()
   }
 
   beforeEach(() => {
