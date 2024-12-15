@@ -44,7 +44,7 @@ describe('FormComponent', () => {
         id: '1',
         name: 'Test Session',
         users: [1, 2, 3],
-        teacher_id: '101',
+        teacher_id: 101,
         date: new Date(),
         description: 'Session description',
         createdAt: new Date(),
@@ -108,5 +108,58 @@ describe('FormComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should initialize form in update mode', () => {
+    expect(component.onUpdate).toBe(true);
+    expect(mockSessionApiService.detail).toHaveBeenCalledWith('1');
+      expect(component.sessionForm?.value).toEqual({
+        name: 'Test Session',
+        description: 'Session description',
+        date: new Date().toISOString().split('T')[0],
+        teacher_id: 101
+      });
+  });
+
+  it('should submit the form and create a session', () => {
+    component.onUpdate = false; // Simulate create mode
+    component.sessionForm?.setValue({
+      name: 'New Session',
+      date: new Date().toISOString().split('T')[0],
+      teacher_id: '102',
+      description: 'New Description'
+    });
+
+    component.submit();
+
+    expect(mockSessionApiService.create).toHaveBeenCalledWith({
+      name: 'New Session',
+      date: new Date().toISOString().split('T')[0],
+      teacher_id: '102',
+      description: 'New Description'
+    });
+    expect(mockSnackBar.open).toHaveBeenCalledWith('Session created !', 'Close', { duration: 3000 });
+    expect(mockRouter.navigate).toHaveBeenCalledWith(['sessions']);
+  });
+
+  it('should submit the form and update a session', () => {
+    component.onUpdate = true;
+    component.sessionForm?.setValue({
+      name: 'Updated Session',
+      date: new Date().toISOString().split('T')[0],
+      teacher_id: '101',
+      description: 'Updated Description'
+    });
+
+    component.submit();
+
+    expect(mockSessionApiService.update).toHaveBeenCalledWith('1', {
+      name: 'Updated Session',
+      date: new Date().toISOString().split('T')[0],
+      teacher_id: '101',
+      description: 'Updated Description'
+    });
+    expect(mockSnackBar.open).toHaveBeenCalledWith('Session updated !', 'Close', { duration: 3000 });
+    expect(mockRouter.navigate).toHaveBeenCalledWith(['sessions']);
   });
 });
