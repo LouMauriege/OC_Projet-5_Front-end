@@ -6,7 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
 import { expect } from '@jest/globals';
@@ -14,17 +14,69 @@ import { SessionService } from 'src/app/services/session.service';
 import { SessionApiService } from '../../services/session-api.service';
 
 import { FormComponent } from './form.component';
+import { of } from 'rxjs';
+import { TeacherService } from 'src/app/services/teacher.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 describe('FormComponent', () => {
   let component: FormComponent;
   let fixture: ComponentFixture<FormComponent>;
 
-  const mockSessionService = {
-    sessionInformation: {
-      admin: true
-    }
-  } 
+  let mockSessionService: any;
+  let mockSessionApiService: any;
+  let mockTeacherService: any;
+  let mockSnackBar: any;
+  let mockRouter: any;
+  let mockActivatedRoute: any;
+
   beforeEach(async () => {
+
+    mockSessionService = {
+      sessionInformation: {
+        admin: true
+      }
+    }
+
+    mockSessionApiService = {
+      create: jest.fn().mockReturnValue(of({})),
+      update: jest.fn().mockReturnValue(of({})),
+      detail: jest.fn().mockReturnValue(of({
+        id: '1',
+        name: 'Test Session',
+        users: [1, 2, 3],
+        teacher_id: '101',
+        date: new Date(),
+        description: 'Session description',
+        createdAt: new Date(),
+        updatedAt: new Date()
+      })),
+    };
+
+    mockTeacherService = {
+      all: jest.fn().mockReturnValue(of([
+        { id: '101', name: 'Teacher 1' },
+        { id: '102', name: 'Teacher 2' }
+      ]))
+    };
+
+    mockSnackBar = {
+      open: jest.fn()
+    };
+
+    mockActivatedRoute = {
+      snapshot: {
+        paramMap: {
+          get: jest.fn().mockReturnValue('1')
+        }
+      }
+    }
+
+    mockRouter = {
+      navigate: jest.fn(),
+      url: 'sessions/update/1',
+      navigateByUrl: jest.fn()
+    }
+
     await TestBed.configureTestingModule({
       imports: [
         RouterTestingModule,
@@ -40,7 +92,11 @@ describe('FormComponent', () => {
       ],
       providers: [
         { provide: SessionService, useValue: mockSessionService },
-        SessionApiService
+        { provide: SessionApiService, useValue: mockSessionApiService },
+        { provide: TeacherService, useValue: mockTeacherService },
+        { provide: MatSnackBar, useValue: mockSnackBar },
+        { provide: Router, useValue: mockRouter },
+        { provide: ActivatedRoute, useValue: mockActivatedRoute }
       ],
       declarations: [FormComponent]
     }).compileComponents();
