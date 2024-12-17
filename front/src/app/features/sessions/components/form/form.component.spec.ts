@@ -17,6 +17,7 @@ import { FormComponent } from './form.component';
 import { of } from 'rxjs';
 import { TeacherService } from 'src/app/services/teacher.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { By } from '@angular/platform-browser';
 
 describe('FormComponent', () => {
   let component: FormComponent;
@@ -161,5 +162,33 @@ describe('FormComponent', () => {
     });
     expect(mockSnackBar.open).toHaveBeenCalledWith('Session updated !', 'Close', { duration: 3000 });
     expect(mockRouter.navigate).toHaveBeenCalledWith(['sessions']);
+  });
+
+  it('should disable the submit button when the form is invalid', () => {
+    const submitButton = fixture.debugElement.query(By.css('button[type="submit"]'));
+
+    component.sessionForm?.get('name')?.setValue('');
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+    component.sessionForm?.get('name')?.setValue('toto');
+    component.sessionForm?.get('date')?.setValue('')
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+    component.sessionForm?.get('date')?.setValue('2024-06-17');
+    component.sessionForm?.get('teacher_id')?.setValue('')
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+
+    component.sessionForm?.get('teacher_id')?.setValue(1);
+    component.sessionForm?.get('description')?.setValue('')
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+    component.sessionForm?.get('description')?.setValue('Yoga class')
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeFalsy();
   });
 });
