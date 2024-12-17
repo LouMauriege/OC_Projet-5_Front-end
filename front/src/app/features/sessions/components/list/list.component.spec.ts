@@ -86,6 +86,13 @@ describe('ListComponent', () => {
     expect(firstSessionTitle.nativeElement.textContent).toContain('Yoga Morning');
   });
 
+  it('should render the correct description for the first session', () => {
+    const sessionCards = fixture.debugElement.queryAll(By.css('.item'));
+
+    const firstSessionTitle = sessionCards[0].query(By.css('mat-card-content'));
+    expect(firstSessionTitle.nativeElement.textContent).toContain('A refreshing yoga session to start the day.');
+  });
+
   it('should display the create button if user is admin', () => {
     const createButton = fixture.debugElement.query(By.css('[data-testid="create"]'));
 
