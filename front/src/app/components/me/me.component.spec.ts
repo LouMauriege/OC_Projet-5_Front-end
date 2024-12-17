@@ -12,6 +12,10 @@ import { MeComponent } from './me.component';
 import { UserService } from 'src/app/services/user.service';
 import { Router } from '@angular/router';
 import { of } from 'rxjs';
+import { User } from 'src/app/interfaces/user.interface';
+import { By } from '@angular/platform-browser';
+import { toUpper } from 'cypress/types/lodash';
+import { FixedSizeVirtualScrollStrategy } from '@angular/cdk/scrolling';
 
 describe('MeComponent', () => {
   let component: MeComponent;
@@ -20,6 +24,7 @@ describe('MeComponent', () => {
   let mockUserService: any;
   let mockRouter: any;
   let mockSnackBar: any;
+  let mockUser: User;
 
   beforeEach(async () => {
     mockSessionService = {
@@ -38,6 +43,17 @@ describe('MeComponent', () => {
     }
     mockSnackBar = {
       open: jest.fn()
+    }
+
+    mockUser = {
+      id: 1,
+      firstName: 'John',
+      lastName: 'Doe',
+      email: 'john.doe@example.com',
+      admin: true,
+      password: 'test123',
+      createdAt: new Date('2024-06-04'),
+      updatedAt: new Date('2024-06-05'),
     }
 
     await TestBed.configureTestingModule({
@@ -67,15 +83,15 @@ describe('MeComponent', () => {
   });
 
   it('should fetch user data on init', () => {
-    const mockUser = {
-      id: 1,
-      email: 'test@mail.com',
-      lastName: 'toto',
-      firstName: 'tata',
-      admin: true,
-      password: 'passwd',
-      createdAt: new Date()
-    };
+    // const mockUser = {
+    //   id: 1,
+    //   email: 'test@mail.com',
+    //   lastName: 'toto',
+    //   firstName: 'tata',
+    //   admin: true,
+    //   password: 'passwd',
+    //   createdAt: new Date()
+    // };
     mockUserService.getById.mockReturnValue(of(mockUser));
 
     fixture.detectChanges();
@@ -105,5 +121,22 @@ describe('MeComponent', () => {
     );
     expect(mockSessionService.logOut).toHaveBeenCalled();
     expect(mockRouter.navigate).toHaveBeenCalledWith(['/']);
+  });
+
+
+  it('should display the correct user data', () => {
+    mockUserService.getById.mockReturnValue(of(mockUser));
+
+    fixture.detectChanges();
+
+    const displayNames = fixture.debugElement.query(By.css('[data-testid="nameParagraph"]'));
+    expect(displayNames.nativeElement.textContent).toContain(mockUser.firstName);
+    expect(displayNames.nativeElement.textContent).toContain(mockUser.lastName.toUpperCase());
+
+    const displayEmail = fixture.debugElement.query(By.css('[data-testid="emailParagraph"]'));
+    expect(displayEmail.nativeElement.textContent).toContain(mockUser.email);
+
+    const displayAdmin = fixture.debugElement.query(By.css('[data-testid="admin"]'));
+    expect(displayAdmin).toBeDefined();
   });
 });
