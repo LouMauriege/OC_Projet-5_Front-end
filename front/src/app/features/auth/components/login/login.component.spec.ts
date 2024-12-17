@@ -13,6 +13,7 @@ import { SessionService } from 'src/app/services/session.service';
 import { LoginComponent } from './login.component';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
+import { By } from '@angular/platform-browser';
 
 describe('LoginComponent', () => {
   let component: LoginComponent;
@@ -56,7 +57,6 @@ describe('LoginComponent', () => {
     fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-
   });
 
   it('should create', () => {
@@ -97,7 +97,40 @@ describe('LoginComponent', () => {
 
     component.form.setValue({ email: 'test@example.com', password: 'password' });
     component.submit();
+    fixture.detectChanges();
 
     expect(component.onError).toBeTruthy();
+
+    const errorElement = fixture.debugElement.query(By.css('.error'));
+    expect(errorElement).toBeTruthy();
+    expect(errorElement.nativeElement.textContent).toContain('An error occurred');
+  });
+
+  it('should not display error message on successful login', () => {
+    const mockResponse = { sessionId: '123' };
+    mockAuthService.login.mockReturnValue(of(mockResponse));
+
+    // Set form values and submit
+    component.form.setValue({ email: 'test@example.com', password: 'password' });
+    component.submit();
+    fixture.detectChanges();
+
+    expect(component.onError).toBeFalsy();
+
+    const errorElement = fixture.debugElement.query(By.css('.error'));
+    expect(errorElement).toBeFalsy();
+  });
+
+  it('should disable the submit button if form is invalid', () => {
+    const submitButton = fixture.debugElement.query(By.css('button[type="submit"]'));
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+    component.form.get('email')?.setValue('test@example.com');
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+    component.form.get('password')?.setValue('password');
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeFalsy();
   });
 });
