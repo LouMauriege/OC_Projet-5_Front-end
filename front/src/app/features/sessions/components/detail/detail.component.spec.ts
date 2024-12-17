@@ -14,6 +14,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { By } from '@angular/platform-browser';
 
 describe('DetailComponent', () => {
   let component: DetailComponent;
@@ -47,10 +48,10 @@ describe('DetailComponent', () => {
         name: 'Test Session',
         users: [1, 2, 3],
         teacher_id: '101',
-        date: new Date(),
+        date: new Date('2024-06-04'),
         description: 'Session description',
-        createdAt: new Date(),
-        updatedAt: new Date()
+        createdAt: new Date('2024-06-05'),
+        updatedAt: new Date('2024-06-06')
       })),
       delete: jest.fn().mockReturnValue(of(null)),
       participate: jest.fn().mockReturnValue(of(null)),
@@ -148,5 +149,26 @@ describe('DetailComponent', () => {
     component.unParticipate();
     expect(mockSessionApiService.unParticipate).toHaveBeenCalledWith('1', '1');
     expect(mockSessionApiService.detail).toHaveBeenCalledTimes(2); // Called again after unParticipate
+  });
+
+  it('should display the delete button if the user is admin', () => {
+    const deleteButton = fixture.debugElement.query(By.css('[data-testid="deleteButton"]'));
+
+    expect(deleteButton).toBeDefined();
+  });
+
+  it('should not display the delete button if the user is not admin', () => {
+   mockSessionService.sessionInformation = { admin: false, id: 1 }; 
+
+    fixture.destroy();
+    fixture = TestBed.createComponent(DetailComponent);
+    component = fixture.componentInstance;
+
+    component.ngOnInit();
+    fixture.detectChanges();
+
+    const deleteButton = fixture.debugElement.query(By.css('[data-testid="deleteButton"]'));
+
+    expect(deleteButton).toBeNull();
   });
 });
