@@ -110,7 +110,6 @@ describe('LoginComponent', () => {
     const mockResponse = { sessionId: '123' };
     mockAuthService.login.mockReturnValue(of(mockResponse));
 
-    // Set form values and submit
     component.form.setValue({ email: 'test@example.com', password: 'password' });
     component.submit();
     fixture.detectChanges();
@@ -121,7 +120,7 @@ describe('LoginComponent', () => {
     expect(errorElement).toBeFalsy();
   });
 
-  it('should disable the submit button if form is invalid', () => {
+  it('should disable the submit button if a form field is invalid', () => {
     const submitButton = fixture.debugElement.query(By.css('button[type="submit"]'));
     expect(submitButton.nativeElement.disabled).toBeTruthy();
 

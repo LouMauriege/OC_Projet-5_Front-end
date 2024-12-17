@@ -12,6 +12,7 @@ import { RegisterComponent } from './register.component';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 import { of, throwError } from 'rxjs';
+import { By } from '@angular/platform-browser';
 
 describe('RegisterComponent', () => {
   let component: RegisterComponent;
@@ -120,7 +121,7 @@ describe('RegisterComponent', () => {
     expect(emailControl?.errors).toEqual({ required: true });
   });
 
-  it('should set on error on register failure', () => {
+  it('should set on error on register failure and display message error', () => {
     const mockRegisterRequest = {
       email: 'test@example.com',
       firstName: 'John',
@@ -133,5 +134,45 @@ describe('RegisterComponent', () => {
     component.submit();
 
     expect(component.onError).toBeTruthy();
+
+    fixture.detectChanges();
+    const errorElement = fixture.debugElement.query(By.css('.error'));
+    expect(errorElement).toBeTruthy();
+    expect(errorElement.nativeElement.textContent).toContain('An error occurred');
   })
+
+  it('should not display error message on successful register', () => {
+    const mockResponse = { sessionId: '123' };
+    mockAuthService.register.mockReturnValue(of(void 0));
+
+    component.form.setValue({ email: 'test@example.com', lastName:'tata', firstName:'toto', password: 'password'});
+    component.submit();
+    fixture.detectChanges();
+
+    expect(component.onError).toBeFalsy();
+
+    const errorElement = fixture.debugElement.query(By.css('.error'));
+    expect(errorElement).toBeFalsy();
+  });
+
+  it('should disable the submit button if a form field is invalid', () => {
+    const submitButton = fixture.debugElement.query(By.css('button[type="submit"]'));
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+    component.form.get('email')?.setValue('test@example.com');
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+    component.form.get('firstName')?.setValue('firstName');
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+    component.form.get('lastName')?.setValue('lastName');
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeTruthy();
+
+    component.form.get('password')?.setValue('password');
+    fixture.detectChanges();
+    expect(submitButton.nativeElement.disabled).toBeFalsy();
+  });
 });
