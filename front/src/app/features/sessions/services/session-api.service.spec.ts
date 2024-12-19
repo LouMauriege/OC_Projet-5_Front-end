@@ -9,11 +9,6 @@ import { of, throwError } from 'rxjs';
 describe('SessionsService', () => {
   let service: SessionApiService;
   let httpClientSpy: any;
-  //   get: jest.Mock,
-  //   post: jest.Mock,
-  //   put: jest.Mock,
-  //   delete: jest.Mock
-  // };
 
   beforeEach(() => {
     httpClientSpy = {

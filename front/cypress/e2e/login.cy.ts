@@ -1,27 +1,22 @@
 describe('Login spec', () => {
-  it('Login successfull', () => {
-    cy.visit('/login')
+  it('should login as admin successfull', () => {
+    cy.loginAdmin();
 
-    cy.intercept('POST', '/api/auth/login', {
-      body: {
-        id: 1,
-        username: 'userName',
-        firstName: 'firstName',
-        lastName: 'lastName',
-        admin: true
-      },
-    })
+    cy.get('button[routerlink="create"]').should('exist');
+  });
 
-    cy.intercept(
-      {
-        method: 'GET',
-        url: '/api/session',
-      },
-      []).as('session')
+  it('should login as user successfull', () => {
+    cy.loginUser();
 
-    cy.get('input[formControlName=email]').type("yoga@studio.com")
-    cy.get('input[formControlName=password]').type(`${"test!1234"}{enter}{enter}`)
+    cy.get('button[routerlink="create"]').should('not.exist');
+  });
 
-    cy.url().should('include', '/sessions')
-  })
+  it.only('should logout', () => {
+    cy.loginUser();
+
+    cy.get('span.link').contains('Logout').click();
+
+    cy.url().should('eq', 'http://localhost:4200/');
+  });
+
 });
