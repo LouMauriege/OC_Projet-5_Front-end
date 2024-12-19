@@ -42,3 +42,6 @@ testem.log
 Thumbs.db
 
 **/.DS_Store 
+
+# Custom
+/cypress/e2e/coverage-custom.txt
