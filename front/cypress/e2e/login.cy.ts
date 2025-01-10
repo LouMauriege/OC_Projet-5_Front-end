@@ -1,4 +1,4 @@
-describe('Login spec', () => {
+describe('Login tests', () => {
   it('should login as admin successfull', () => {
     cy.loginAdmin();
 

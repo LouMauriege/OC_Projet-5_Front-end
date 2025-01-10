@@ -1,4 +1,4 @@
-describe('Register test', () => {
+describe('Register tests', () => {
     it('should register successfull', () => {
         cy.register();
     })

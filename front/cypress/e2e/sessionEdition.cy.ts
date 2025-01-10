@@ -1,4 +1,4 @@
-describe('Yoga Session Management E2E', () => {
+describe('Session edition by admins', () => {
   const sessionData = {
     id: 1,
     name: 'Morning Yoga',
@@ -30,6 +30,11 @@ describe('Yoga Session Management E2E', () => {
     cy.intercept('POST', '/api/session', sessionData);
     cy.intercept('GET', '/api/session', sessionsData);
 
+    cy.intercept('GET', '/api/session/1', sessionData);
+    cy.intercept('PUT', '/api/session/1', sessionData);
+
+    cy.intercept('DELETE', '/api/session/1', { statusCode: 200 });
+
     cy.intercept('GET', '/api/teacher',
       [
         {
@@ -49,7 +54,7 @@ describe('Yoga Session Management E2E', () => {
     });
   });
 
-  it.only('should create a new session', () => {
+  it('should create a new session', () => {
     cy.loginAdmin();
     cy.get('button[routerlink="create"]').click();
     
@@ -60,6 +65,8 @@ describe('Yoga Session Management E2E', () => {
     cy.get('[formControlName=description]').type(sessionData.description);
     
     cy.get('button[type="submit"]').click();
+
+    cy.get('simple-snack-bar').should('contain', 'Session created !');
   });
 
 
@@ -76,5 +83,31 @@ describe('Yoga Session Management E2E', () => {
     cy.get('button[type="submit"]').should('be.disabled');
   });
 
+  it('should edit a session', () => {
+    cy.loginAdmin();
+  
+    cy.get('button[data-testid="edit"]').first().click();
+    cy.get('[formControlName=description]').type(sessionData.description);
+    cy.get('button[type="submit"]').click();
 
+    cy.get('simple-snack-bar').should('contain', 'Session updated !')
+  });
+
+  it('should not edit a session because of an empty field', () => {
+    cy.loginAdmin();
+  
+    cy.get('button[data-testid="edit"]').first().click();
+    cy.get('[formControlName=description]').clear();
+
+    cy.get('button[type="submit"]').should('be.disabled');
+  });
+
+   it('should allow to delete session if user is admin', () => {
+    cy.loginAdmin();
+
+    cy.get('button:contains("Detail")').first().click();
+    cy.get('button:contains("Delete")').first().click();
+
+    cy.get('simple-snack-bar').should('contain', 'Session deleted !');
+   });
 });
