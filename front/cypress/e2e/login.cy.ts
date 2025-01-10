@@ -38,7 +38,7 @@ describe('Login spec', () => {
     cy.get('[data-testid="nameParagraph"]').should('contain', user.lastName.toUpperCase());
   });
 
-  it.only('should delete the logged in account', () => {
+  it('should delete the logged in account', () => {
     cy.intercept('DELETE', '/api/user/1', {
       statusCode: 200,
     });

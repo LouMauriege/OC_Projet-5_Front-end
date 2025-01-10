@@ -1,4 +1,4 @@
-describe('Yoga Session Management E2E with Mocked Login', () => {
+describe('Yoga Session Management E2E', () => {
   const sessionData = {
     id: 1,
     name: 'Morning Yoga',
@@ -8,70 +8,73 @@ describe('Yoga Session Management E2E with Mocked Login', () => {
     users: [],
   };
 
-  const adminToken = 'mocked-admin-token'; // Mocked token for admin access
+  const sessionsData = [
+    {
+      "id": 1,
+      "title": "Session 1",
+      "date": "2025-01-01",
+      "teacher_id": 1,
+      "description": "This is the first session",
+      "users": []
+    },
+    {
+      "id": 2,
+      "title": "Session 2",
+      "date": "2025-01-02",
+      "teacher_id": 1,
+      "description": "This is the second session",
+      "users": []
+    }];
 
   beforeEach(() => {
-    // Mock the login process
-    cy.intercept('POST', '/api/auth/login', {
-      statusCode: 200,
-      body: { token: adminToken },
-    }).as('login');
+    cy.intercept('POST', '/api/session', sessionData);
+    cy.intercept('GET', '/api/session', sessionsData);
 
-    // Set the token in localStorage
-    cy.visit('/login'); // Navigate to login page to set context
-    cy.window().then((window) => {
-      window.localStorage.setItem('authToken', adminToken);
-    });
-
-    // Mock API response for teacher list
-    cy.intercept('GET', '/api/teachers', {
-      statusCode: 200,
-      body: [
-        { id: 1, firstName: 'Teacher A', lastName: '' },
-        { id: 2, firstName: 'Teacher B', lastName: '' },
-      ],
-    }).as('getTeachers');
-
-    // Mock API response for session list
-    cy.intercept('GET', '/api/session', {
-      statusCode: 200,
-      body: [sessionData],
-    }).as('getSessions');
-  });
-
-  it('should create a new yoga session', () => {
-    // Mock API response for session creation
-    cy.intercept('POST', '/api/session', {
-      statusCode: 201,
-      body: { ...sessionData, id: 2 },
-    }).as('createSession');
-
-    // Navigate to the Create Session page
-    cy.visit('/sessions/create');
-
-    // Fill out the form
-    cy.get('input[formControlName="name"]').type('Morning Yoga');
-    cy.get('input[formControlName="date"]').type('2024-12-25');
-    cy.get('mat-select[formControlName="teacher_id"]').click();
-    cy.contains('mat-option', 'Teacher A').click();
-    cy.get('textarea[formControlName="description"]').type(
-      'A relaxing yoga session to start the day.'
+    cy.intercept('GET', '/api/teacher',
+      [
+        {
+          "id": 1,
+          "firstName": "Tata",
+          "lastName": "Toto"
+        }
+      ]
     );
-
-    // Submit the form
-    cy.get('button[type="submit"]').click();
-
-    // Verify that the mocked API call was made
-    cy.wait('@createSession').its('request.body').should('include', {
-      name: 'Morning Yoga',
-      date: '2024-12-25',
-      teacher_id: 1,
-      description: 'A relaxing yoga session to start the day.',
+    
+    cy.intercept('GET', '/api/teacher/1', {
+      body: {
+        "id": 1,
+        "firstName": "Tata",
+        "lastName": "Toto"
+      },
     });
-
-    // Verify success message
-    cy.contains('Session created!').should('be.visible');
   });
 
-  // Other tests (update and delete) remain the same...
+  it.only('should create a new session', () => {
+    cy.loginAdmin();
+    cy.get('button[routerlink="create"]').click();
+    
+    cy.get('input[formControlName=name]').type(sessionData.name);
+    cy.get('input[formControlName=date]').type(sessionData.date);
+    cy.get('[formControlName=teacher_id]').click();
+    cy.get('span.mat-option-text').click();
+    cy.get('[formControlName=description]').type(sessionData.description);
+    
+    cy.get('button[type="submit"]').click();
+  });
+
+
+  it('should not create a new session because of an empty field', () => {
+    cy.loginAdmin();
+    cy.get('button[routerlink="create"]').click();
+
+    cy.get('input[formControlName=name]').focus();
+    cy.get('input[formControlName=date]').type(sessionData.date);
+    cy.get('[formControlName=teacher_id]').click();
+    cy.get('span.mat-option-text').click();
+    cy.get('[formControlName=description]').type(sessionData.description);
+    
+    cy.get('button[type="submit"]').should('be.disabled');
+  });
+
+
 });

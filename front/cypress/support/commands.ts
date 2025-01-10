@@ -55,13 +55,6 @@ Cypress.Commands.add('loginAdmin', () => {
         },
     })
 
-    cy.intercept(
-        {
-            method: 'GET',
-            url: '/api/session',
-        },
-        []).as('session')
-
     cy.get('input[formControlName=email]').type("yoga@studio.com")
     cy.get('input[formControlName=password]').type(`${"test!1234"}{enter}{enter}`)
 
@@ -81,12 +74,12 @@ Cypress.Commands.add('loginUser', () => {
         },
     })
 
-    cy.intercept(
-        {
-            method: 'GET',
-            url: '/api/session',
-        },
-        []).as('session')
+    // cy.intercept(
+    //     {
+    //         method: 'GET',
+    //         url: '/api/session',
+    //     },
+    //     []).as('session')
 
     cy.get('input[formControlName=email]').type("yoga@studio.com")
     cy.get('input[formControlName=password]').type(`${"test!1234"}{enter}{enter}`)
