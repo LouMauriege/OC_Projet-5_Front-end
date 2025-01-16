@@ -62,7 +62,7 @@ public class TeacherServiceTest {
     }
 
     @Test
-    public void TestFindAll() {
+    public void testFindAll() {
         // Arrange
         List<Teacher> expectedTeacherList = teachers.collect(Collectors.toList());
         when(teacherRepository.findAll()).thenReturn(expectedTeacherList);
@@ -76,7 +76,7 @@ public class TeacherServiceTest {
     }
 
     @Test
-    public void TestFindById_ShouldReturnTheTeacher_WhenExist() {
+    public void testFindById_ShouldReturnTheTeacher_WhenExist() {
         // Arrange
         Teacher expectedTeacher = firstTeacher;
         when(teacherRepository.findById(0L)).thenReturn(Optional.ofNullable(expectedTeacher));
@@ -90,7 +90,7 @@ public class TeacherServiceTest {
     }
 
     @Test
-    public void TestFindById_ShouldReturnNull_WhenDoesNotExist() {
+    public void testFindById_ShouldReturnNull_WhenDoesNotExist() {
         // Arrange
         when(teacherRepository.findById(3L)).thenReturn(Optional.empty());
 
