@@ -1,5 +1,7 @@
 package com.openclassrooms.starterjwt.services;
 
+import com.openclassrooms.starterjwt.exception.BadRequestException;
+import com.openclassrooms.starterjwt.exception.NotFoundException;
 import com.openclassrooms.starterjwt.models.Session;
 import com.openclassrooms.starterjwt.models.Teacher;
 import com.openclassrooms.starterjwt.models.User;
@@ -18,8 +20,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
+import static org.mockito.Mockito.*;
 
 @SpringBootTest
 public class SessionServiceTest {
@@ -76,6 +78,16 @@ public class SessionServiceTest {
                 .build();
 
         secondSession = new Session();
+        secondSession = Session.builder()
+                .id(1L)
+                .name("Afternoon Session")
+                .date(new Date(1737058385987L))
+                .description("Yoga in the afternoon.")
+                .teacher(firstTeacher)
+                .users(new ArrayList<User>())
+                .createdAt(LocalDateTime.of(1968,7,11,3,35,20,9))
+                .createdAt(LocalDateTime.of(1968,7,11,3,35,20,9))
+                .build();
         thirdSession = new Session();
 
         sessionStream = Stream.of(
@@ -150,4 +162,98 @@ public class SessionServiceTest {
         assertThat(updatedSession).isEqualTo(firstSession);
     }
 
+    @Test
+    public void testParticipate_shouldAddUser_whenExist() {
+        // Arrange
+        when(sessionRepository.findById(secondSession.getId())).thenReturn(Optional.ofNullable(secondSession));
+        when(sessionRepository.save(secondSession)).thenReturn(secondSession);
+        when(userRepository.findById(myUser.getId())).thenReturn(Optional.ofNullable(myUser));
+
+        // Act
+        sessionServiceUnderTest.participate(secondSession.getId(), myUser.getId());
+
+        // Assert
+        verify(sessionRepository).findById(secondSession.getId());
+        verify(sessionRepository).save(secondSession);
+        verify(userRepository).findById(myUser.getId());
+        assertThat(secondSession.getUsers()).contains(myUser);
+    }
+
+    @Test
+    public void testParticipate_shouldThrowNotFoundException_whenUserDoesNotExist() {
+        // Arrange
+        when(sessionRepository.findById(secondSession.getId())).thenReturn(Optional.ofNullable(secondSession));
+        when(userRepository.findById(1L)).thenReturn(Optional.empty());
+
+        // Act & Assert
+        assertThatThrownBy(() -> {
+            sessionServiceUnderTest.participate(secondSession.getId(), 1L);
+        }).isInstanceOf(NotFoundException.class);
+        verify(sessionRepository, never()).save(any(Session.class));
+    }
+
+    @Test
+    public void testParticipate_shouldThrowNotFoundException_whenSessionDoesNotExist() {
+        // Arrange
+        when(sessionRepository.findById(2L)).thenReturn(Optional.empty());
+        when(userRepository.findById(myUser.getId())).thenReturn(Optional.of(myUser));
+
+        // Act & Assert
+        assertThatThrownBy(() -> {
+            sessionServiceUnderTest.participate(2L, myUser.getId());
+        }).isInstanceOf(NotFoundException.class);
+        verify(sessionRepository, never()).save(any(Session.class));
+    }
+
+    @Test
+    public void testParticipate_shouldThrowBadRequest_whenUserAlreadyParticipate() {
+        // Arrange
+        when(sessionRepository.findById(firstSession.getId())).thenReturn(Optional.of(firstSession));
+        when(userRepository.findById(myUser.getId())).thenReturn(Optional.of(myUser));
+
+        // Act & Assert
+        assertThatThrownBy(() -> {
+            sessionServiceUnderTest.participate(firstSession.getId(), myUser.getId());
+        }).isInstanceOf(BadRequestException.class);
+        verify(sessionRepository, never()).save(any(Session.class));
+    }
+
+    @Test
+    public void testNoLongerParticipate_shouldRemoveUser_whenExist() {
+        // Arrange
+        when(sessionRepository.findById(firstSession.getId())).thenReturn(Optional.ofNullable(firstSession));
+        when(sessionRepository.save(firstSession)).thenReturn(firstSession);
+
+        // Act
+        sessionServiceUnderTest.noLongerParticipate(firstSession.getId(), myUser.getId());
+
+        // Assert
+        verify(sessionRepository).findById(firstSession.getId());
+        verify(sessionRepository).save(firstSession);
+        assertThat(firstSession.getUsers()).doesNotContain(myUser);
+    }
+
+    @Test
+    public void testNoLongerParticipate_shouldThrowNotFound_whenSessionDoesNotExist() {
+        // Arrange
+        when(sessionRepository.findById(2L)).thenReturn(Optional.empty());
+
+        // Act & Assert
+        assertThatThrownBy(() -> {
+            sessionServiceUnderTest.noLongerParticipate(2L, myUser.getId());
+        }).isInstanceOf(NotFoundException.class);
+        verify(sessionRepository, never()).save(any(Session.class));
+    }
+
+    @Test
+    public void testNoLongerParticipate_shouldThrowNotFound_whenUserAlreadyUnparticipate() {
+        // Arrange
+        when(sessionRepository.findById(secondSession.getId())).thenReturn(Optional.of(secondSession));
+
+        // Act & Assert
+        assertThatThrownBy(() -> {
+            sessionServiceUnderTest.noLongerParticipate(secondSession.getId(), myUser.getId());
+        }).isInstanceOf(BadRequestException.class);
+        verify(sessionRepository, never()).save(any(Session.class));
+    }
 }
