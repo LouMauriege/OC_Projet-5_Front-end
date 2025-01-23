@@ -11,9 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.security.config.annotation.web.builders.WebSecurity;
 
-import java.lang.reflect.Array;
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -77,7 +75,6 @@ public class SessionServiceTest {
                 .createdAt(LocalDateTime.of(1968,7,11,3,35,20,9))
                 .build();
 
-        secondSession = new Session();
         secondSession = Session.builder()
                 .id(1L)
                 .name("Afternoon Session")
