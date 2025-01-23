@@ -1,33 +1,22 @@
 package com.openclassrooms.starterjwt.mapper;
 
-import com.openclassrooms.starterjwt.dto.SessionDto;
 import com.openclassrooms.starterjwt.dto.TeacherDto;
-import com.openclassrooms.starterjwt.models.Session;
 import com.openclassrooms.starterjwt.models.Teacher;
-import com.openclassrooms.starterjwt.models.User;
-import com.openclassrooms.starterjwt.services.TeacherService;
-import com.openclassrooms.starterjwt.services.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.time.LocalDateTime;
 import java.util.Collections;
-import java.util.Date;
 import java.util.List;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.mockito.Mockito.*;
 
 public class TeacherMapperTest {
 
     @InjectMocks
     TeacherMapperImpl teacherMapperUnderTest;
-
-    @Mock
-    TeacherService teacherService;
 
     Teacher firstTeacher;
 
