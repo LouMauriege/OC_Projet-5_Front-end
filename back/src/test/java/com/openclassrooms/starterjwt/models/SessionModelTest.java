@@ -147,16 +147,15 @@ public class SessionModelTest {
     @Test
     public void testBuilderToString_shouldReturn_stringOfSession() {
         // Arrange & Act
-        String sessionBuilderToString = Session.builder()
-                .id(0L)
-                .name("Morning Session")
-                .date(new Date(1737058385177L))
-                .description("Yoga in the morning.")
-                .teacher(new Teacher())
-                .users(Collections.singletonList(new User()))
-                .createdAt(LocalDateTime.of(1968,7,11,3,35,20,9))
-                .updatedAt(LocalDateTime.of(1968,7,11,3,35,20,9))
-                .build()
+        String sessionBuilderToString = sessionBuilder
+                .setId(0L)
+                .setName("Morning Session")
+                .setDate(new Date(1737058385177L))
+                .setDescription("Yoga in the morning.")
+                .setTeacher(new Teacher())
+                .setUsers(Collections.singletonList(new User()))
+                .setCreatedAt(LocalDateTime.of(1968,7,11,3,35,20,9))
+                .setUpdatedAt(LocalDateTime.of(1968,7,11,3,35,20,9))
                 .toString();
 
         // Assert
