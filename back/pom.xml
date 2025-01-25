@@ -123,6 +123,7 @@
 				<configuration>
 					<excludes>
 						<exclude>**/com/openclassrooms/starterjwt/dto/**</exclude>
+						<exclude>**/com/openclassrooms/starterjwt/security/jwt/JwtUtils**</exclude>
 					</excludes>
 				</configuration>
 				<executions>

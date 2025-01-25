@@ -106,4 +106,30 @@ public class UserModelTest {
         assertThat(userConstructor.getPassword()).isEqualTo("passwd");
         assertThat(userConstructor.isAdmin()).isTrue();
     }
+
+    @Test
+    public void testAllArgConstructorMethod() {
+        // Arrange & Act
+        User userConstructor = new User(
+                0L,
+                "test@mail.com",
+                "lastname",
+                "firstname",
+                "passwd",
+                true,
+                LocalDateTime.of(2024, 11, 7, 17, 33, 46, 105399),
+                LocalDateTime.of(2024, 11, 7, 17, 33, 46, 105399)
+        );
+
+        // Assert
+        assertThat(userConstructor).isNotNull();
+        assertThat(userConstructor.getId()).isEqualTo(0L);
+        assertThat(userConstructor.getEmail()).isEqualTo("test@mail.com");
+        assertThat(userConstructor.getLastName()).isEqualTo("lastname");
+        assertThat(userConstructor.getFirstName()).isEqualTo("firstname");
+        assertThat(userConstructor.getPassword()).isEqualTo("passwd");
+        assertThat(userConstructor.getCreatedAt()).isEqualTo(LocalDateTime.of(2024, 11, 7, 17, 33, 46, 105399));
+        assertThat(userConstructor.getUpdatedAt()).isEqualTo(LocalDateTime.of(2024, 11, 7, 17, 33, 46, 105399));
+        assertThat(userConstructor.isAdmin()).isTrue();
+    }
 }
