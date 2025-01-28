@@ -1,5 +1,5 @@
 INSERT INTO USERS (first_name, last_name, admin, email, password, created_at, updated_at)
-VALUES ('userDBFirstName', 'userDBLastName', true, 'emailDB@mail.com', 'passwdDB', '2024-08-17T17:33:46.105399', '2025-01-17T17:33:46.105399');
+VALUES ('userDBFirstName', 'userDBLastName', true, 'emailDB@mail.com', '$2a$10$goTwuJTuS02mR7y7fDAZAufZO3RY8ffNtldntnkMZx4wAozQTdg9K', '2024-08-17T17:33:46.105399', '2025-01-17T17:33:46.105399');
 INSERT INTO USERS (last_name, first_name, admin, email, password, created_at, updated_at)
 VALUES ('Gumble', 'Barney', false, 'barneygumbel@mail.com', 'passwd2', '2024-11-17T17:33:46.105399', '2025-01-17T17:33:46.105399');
 
