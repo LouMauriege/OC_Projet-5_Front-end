@@ -86,17 +86,4 @@ public class UserControllerTest {
         verify(userService).findById(5L);
         assertThat(actualResponse.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
     }
-
-//    @Test
-//    public void delete_shouldReturnOkStatus_whenExist() {
-//        // Arrange
-//        when(userService.findById(myUser.getId())).thenReturn(myUser);
-//
-//        // Act
-//        ResponseEntity<?> actualResponse = userControllerUnderTest.save(myUser.getId().toString());
-//
-//        // Assert
-//        verify(userService).findById(myUser.getId());
-//        assertThat(actualResponse).isEqualTo(HttpStatus.OK);
-//    }
 }
