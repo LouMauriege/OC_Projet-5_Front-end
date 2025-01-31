@@ -5,7 +5,7 @@
 - Git
 - MySQL
 - Node
-- OpenJDK
+- OpenJDK 11
 
 ## Database
 
