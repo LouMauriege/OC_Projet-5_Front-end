@@ -1,6 +1,6 @@
 {
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\polyfills.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\polyfills.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/polyfills.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/polyfills.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -13,17 +13,17 @@
       "names": [],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\polyfills.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/polyfills.ts"
       ],
       "sourcesContent": [
-        "/**\r\n * This file includes polyfills needed by Angular and is loaded before the app.\r\n * You can add your own extra polyfills to this file.\r\n *\r\n * This file is divided into 2 sections:\r\n *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.\r\n *   2. Application imports. Files imported after ZoneJS that should be loaded before your main\r\n *      file.\r\n *\r\n * The current setup is for so-called \"evergreen\" browsers; the last versions of browsers that\r\n * automatically update themselves. This includes recent versions of Safari, Chrome (including\r\n * Opera), Edge on the desktop, and iOS and Chrome on mobile.\r\n *\r\n * Learn more in https://angular.io/guide/browser-support\r\n */\r\n\r\n/***************************************************************************************************\r\n * BROWSER POLYFILLS\r\n */\r\n\r\n/**\r\n * By default, zone.js will patch all possible macroTask and DomEvents\r\n * user can disable parts of macroTask/DomEvents patch by setting following flags\r\n * because those flags need to be set before `zone.js` being loaded, and webpack\r\n * will put import in the top of bundle, so user need to create a separate file\r\n * in this directory (for example: zone-flags.ts), and put the following flags\r\n * into that file, and then add the following code before importing zone.js.\r\n * import './zone-flags';\r\n *\r\n * The flags allowed in zone-flags.ts are listed here.\r\n *\r\n * The following flags will work for all browsers.\r\n *\r\n * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame\r\n * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick\r\n * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames\r\n *\r\n *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js\r\n *  with the following flag, it will bypass `zone.js` patch for IE/Edge\r\n *\r\n *  (window as any).__Zone_enable_cross_context_check = true;\r\n *\r\n */\r\n\r\n/***************************************************************************************************\r\n * Zone JS is required by default for Angular itself.\r\n */\r\nimport 'zone.js';  // Included with Angular CLI.\r\n\r\n\r\n/***************************************************************************************************\r\n * APPLICATION IMPORTS\r\n */\r\n"
+        "/**\n * This file includes polyfills needed by Angular and is loaded before the app.\n * You can add your own extra polyfills to this file.\n *\n * This file is divided into 2 sections:\n *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.\n *   2. Application imports. Files imported after ZoneJS that should be loaded before your main\n *      file.\n *\n * The current setup is for so-called \"evergreen\" browsers; the last versions of browsers that\n * automatically update themselves. This includes recent versions of Safari, Chrome (including\n * Opera), Edge on the desktop, and iOS and Chrome on mobile.\n *\n * Learn more in https://angular.io/guide/browser-support\n */\n\n/***************************************************************************************************\n * BROWSER POLYFILLS\n */\n\n/**\n * By default, zone.js will patch all possible macroTask and DomEvents\n * user can disable parts of macroTask/DomEvents patch by setting following flags\n * because those flags need to be set before `zone.js` being loaded, and webpack\n * will put import in the top of bundle, so user need to create a separate file\n * in this directory (for example: zone-flags.ts), and put the following flags\n * into that file, and then add the following code before importing zone.js.\n * import './zone-flags';\n *\n * The flags allowed in zone-flags.ts are listed here.\n *\n * The following flags will work for all browsers.\n *\n * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame\n * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick\n * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames\n *\n *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js\n *  with the following flag, it will bypass `zone.js` patch for IE/Edge\n *\n *  (window as any).__Zone_enable_cross_context_check = true;\n *\n */\n\n/***************************************************************************************************\n * Zone JS is required by default for Angular itself.\n */\nimport 'zone.js';  // Included with Angular CLI.\n\n\n/***************************************************************************************************\n * APPLICATION IMPORTS\n */\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "8b98b17e28f1d96bdb1742fbbbf2d78b3392a84a"
+    "hash": "1248540aefd9ad9343d2601af252f34cc0f23a41"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\services\\session.service.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\services\\session.service.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/services/session.service.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/services/session.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -388,7 +388,7 @@
       "0": 27,
       "1": 27,
       "2": 27,
-      "3": 2124,
+      "3": 2062,
       "4": 23,
       "5": 23,
       "6": 23,
@@ -404,7 +404,7 @@
     "f": {
       "0": 27,
       "1": 27,
-      "2": 2124,
+      "2": 2062,
       "3": 23,
       "4": 4,
       "5": 27,
@@ -438,17 +438,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\services\\session.service.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/services/session.service.ts"
       ],
       "sourcesContent": [
-        "import { Injectable } from '@angular/core';\r\nimport { BehaviorSubject, Observable } from 'rxjs';\r\nimport { SessionInformation } from '../interfaces/sessionInformation.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class SessionService {\r\n\r\n  public isLogged = false;\r\n  public sessionInformation: SessionInformation | undefined;\r\n\r\n  private isLoggedSubject = new BehaviorSubject<boolean>(this.isLogged);\r\n\r\n  public $isLogged(): Observable<boolean> {\r\n    return this.isLoggedSubject.asObservable();\r\n  }\r\n\r\n  public logIn(user: SessionInformation): void {\r\n    this.sessionInformation = user;\r\n    this.isLogged = true;\r\n    this.next();\r\n  }\r\n\r\n  public logOut(): void {\r\n    this.sessionInformation = undefined;\r\n    this.isLogged = false;\r\n    this.next();\r\n  }\r\n\r\n  private next(): void {\r\n    this.isLoggedSubject.next(this.isLogged);\r\n  }\r\n}\r\n"
+        "import { Injectable } from '@angular/core';\nimport { BehaviorSubject, Observable } from 'rxjs';\nimport { SessionInformation } from '../interfaces/sessionInformation.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class SessionService {\n\n  public isLogged = false;\n  public sessionInformation: SessionInformation | undefined;\n\n  private isLoggedSubject = new BehaviorSubject<boolean>(this.isLogged);\n\n  public $isLogged(): Observable<boolean> {\n    return this.isLoggedSubject.asObservable();\n  }\n\n  public logIn(user: SessionInformation): void {\n    this.sessionInformation = user;\n    this.isLogged = true;\n    this.next();\n  }\n\n  public logOut(): void {\n    this.sessionInformation = undefined;\n    this.isLogged = false;\n    this.next();\n  }\n\n  private next(): void {\n    this.isLoggedSubject.next(this.isLogged);\n  }\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "fb73ef68707014f882a30331e88dd82adb0dd3ea"
+    "hash": "5e1bf6ae15a777bf815079c7701962019d7a6595"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\services\\user.service.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\services\\user.service.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/services/user.service.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/services/user.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -743,17 +743,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\services\\user.service.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/services/user.service.ts"
       ],
       "sourcesContent": [
-        "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { User } from '../interfaces/user.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class UserService {\r\n\r\n  private pathService = 'api/user';\r\n\r\n  constructor(private httpClient: HttpClient) { }\r\n\r\n  public getById(id: string): Observable<User> {\r\n    return this.httpClient.get<User>(`${this.pathService}/${id}`);\r\n  }\r\n\r\n  public delete(id: string): Observable<any> {\r\n    return this.httpClient.delete(`${this.pathService}/${id}`);\r\n  }\r\n}\r\n"
+        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { User } from '../interfaces/user.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class UserService {\n\n  private pathService = 'api/user';\n\n  constructor(private httpClient: HttpClient) { }\n\n  public getById(id: string): Observable<User> {\n    return this.httpClient.get<User>(`${this.pathService}/${id}`);\n  }\n\n  public delete(id: string): Observable<any> {\n    return this.httpClient.delete(`${this.pathService}/${id}`);\n  }\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "fb0c1cb0d7c862fbca6d8057046ddc0c4e642368"
+    "hash": "e62ae947408be463ef20616b6cc793216f0dd48d"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/components/me/me.component.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/components/me/me.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -2400,19 +2400,19 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.html",
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/components/me/me.component.html",
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/components/me/me.component.ts"
       ],
       "sourcesContent": [
-        "<div class=\"m3\">\r\n  <mat-card>\r\n    <mat-card-title>\r\n      <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\r\n        <button mat-icon-button (click)=\"back()\">\r\n          <mat-icon>arrow_back</mat-icon>\r\n        </button>\r\n        <h1>User information</h1>\r\n      </div>\r\n    </mat-card-title>\r\n    <mat-card-content>\r\n      <div *ngIf=\"user\" fxLayout=\"column\" fxLayoutAlign=\"start center\">\r\n        <p data-testid=\"nameParagraph\">Name: {{ user.firstName }} {{ user.lastName | uppercase }}</p>\r\n        <p data-testid=\"emailParagraph\">Email: {{ user.email }}</p>\r\n        <p *ngIf=\"user.admin\" class=\"my2\" data-testid=\"admin\">You are admin</p>\r\n        <div *ngIf=\"!user.admin\" fxLayout=\"column\" class=\"my2\" fxLayoutAlign=\"center center\">\r\n          <p>Delete my account:</p>\r\n          <button mat-raised-button color=\"warn\" (click)=\"delete()\">\r\n            <mat-icon>delete</mat-icon>\r\n            <span class=\"ml1\">Detail</span>\r\n          </button>\r\n        </div>\r\n        <div fxLayoutAlign=\"space-between center\" class=\"p2 w100\">\r\n\r\n          <p><i>Create at: </i> {{ user.createdAt | date: 'longDate'}}</p>\r\n          <p><i>Last update: </i> {{ user.updatedAt| date: 'longDate'}}</p>\r\n        </div>\r\n      </div>\r\n    </mat-card-content>\r\n  </mat-card>\r\n</div>\r\n",
-        "import { Component, OnInit } from '@angular/core';\r\nimport { MatSnackBar } from '@angular/material/snack-bar';\r\nimport { Router } from '@angular/router';\r\nimport { User } from '../../interfaces/user.interface';\r\nimport { SessionService } from '../../services/session.service';\r\nimport { UserService } from '../../services/user.service';\r\n\r\n@Component({\r\n  selector: 'app-me',\r\n  templateUrl: './me.component.html',\r\n  styleUrls: ['./me.component.scss']\r\n})\r\nexport class MeComponent implements OnInit {\r\n\r\n  public user: User | undefined;\r\n\r\n  constructor(private router: Router,\r\n              private sessionService: SessionService,\r\n              private matSnackBar: MatSnackBar,\r\n              private userService: UserService) {\r\n  }\r\n\r\n  public ngOnInit(): void {\r\n    this.userService\r\n      .getById(this.sessionService.sessionInformation!.id.toString())\r\n      .subscribe((user: User) => this.user = user);\r\n  }\r\n\r\n  public back(): void {\r\n    window.history.back();\r\n  }\r\n\r\n  public delete(): void {\r\n    this.userService\r\n      .delete(this.sessionService.sessionInformation!.id.toString())\r\n      .subscribe((_) => {\r\n        this.matSnackBar.open(\"Your account has been deleted !\", 'Close', { duration: 3000 });\r\n        this.sessionService.logOut();\r\n        this.router.navigate(['/']);\r\n      })\r\n  }\r\n\r\n}\r\n"
+        "<div class=\"m3\">\n  <mat-card>\n    <mat-card-title>\n      <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\n        <button mat-icon-button (click)=\"back()\">\n          <mat-icon>arrow_back</mat-icon>\n        </button>\n        <h1>User information</h1>\n      </div>\n    </mat-card-title>\n    <mat-card-content>\n      <div *ngIf=\"user\" fxLayout=\"column\" fxLayoutAlign=\"start center\">\n        <p data-testid=\"nameParagraph\">Name: {{ user.firstName }} {{ user.lastName | uppercase }}</p>\n        <p data-testid=\"emailParagraph\">Email: {{ user.email }}</p>\n        <p *ngIf=\"user.admin\" class=\"my2\" data-testid=\"admin\">You are admin</p>\n        <div *ngIf=\"!user.admin\" fxLayout=\"column\" class=\"my2\" fxLayoutAlign=\"center center\">\n          <p>Delete my account:</p>\n          <button mat-raised-button color=\"warn\" (click)=\"delete()\">\n            <mat-icon>delete</mat-icon>\n            <span class=\"ml1\">Detail</span>\n          </button>\n        </div>\n        <div fxLayoutAlign=\"space-between center\" class=\"p2 w100\">\n\n          <p><i>Create at: </i> {{ user.createdAt | date: 'longDate'}}</p>\n          <p><i>Last update: </i> {{ user.updatedAt| date: 'longDate'}}</p>\n        </div>\n      </div>\n    </mat-card-content>\n  </mat-card>\n</div>\n",
+        "import { Component, OnInit } from '@angular/core';\nimport { MatSnackBar } from '@angular/material/snack-bar';\nimport { Router } from '@angular/router';\nimport { User } from '../../interfaces/user.interface';\nimport { SessionService } from '../../services/session.service';\nimport { UserService } from '../../services/user.service';\n\n@Component({\n  selector: 'app-me',\n  templateUrl: './me.component.html',\n  styleUrls: ['./me.component.scss']\n})\nexport class MeComponent implements OnInit {\n\n  public user: User | undefined;\n\n  constructor(private router: Router,\n              private sessionService: SessionService,\n              private matSnackBar: MatSnackBar,\n              private userService: UserService) {\n  }\n\n  public ngOnInit(): void {\n    this.userService\n      .getById(this.sessionService.sessionInformation!.id.toString())\n      .subscribe((user: User) => this.user = user);\n  }\n\n  public back(): void {\n    window.history.back();\n  }\n\n  public delete(): void {\n    this.userService\n      .delete(this.sessionService.sessionInformation!.id.toString())\n      .subscribe((_) => {\n        this.matSnackBar.open(\"Your account has been deleted !\", 'Close', { duration: 3000 });\n        this.sessionService.logOut();\n        this.router.navigate(['/']);\n      })\n  }\n\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d89d2ad688d87d4b37fbae4ccb0c2184c7b656eb"
+    "hash": "3a5ddf7b837a947dd6c5cee8ed4a4eb83a421d33"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/components/not-found/not-found.component.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/components/not-found/not-found.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -2693,19 +2693,19 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.ts",
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.html"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/components/not-found/not-found.component.ts",
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/components/not-found/not-found.component.html"
       ],
       "sourcesContent": [
-        "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-not-found',\r\n  templateUrl: './not-found.component.html',\r\n  styleUrls: ['./not-found.component.scss']\r\n})\r\nexport class NotFoundComponent {\r\n}\r\n",
-        "<div class=\"flex justify-center mt3\">\r\n        <h1>Page not found !</h1>\r\n</div>"
+        "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-not-found',\n  templateUrl: './not-found.component.html',\n  styleUrls: ['./not-found.component.scss']\n})\nexport class NotFoundComponent {\n}\n",
+        "<div class=\"flex justify-center mt3\">\n        <h1>Page not found !</h1>\n</div>"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a105a3a316be3a303bff3cc18dff6885867efaad"
+    "hash": "c9a22ca39028ec44a9893787d150ed54bdad793e"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\guards\\auth.guard.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\guards\\auth.guard.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/guards/auth.guard.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/guards/auth.guard.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -3037,17 +3037,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\guards\\auth.guard.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/guards/auth.guard.ts"
       ],
       "sourcesContent": [
-        "import {Injectable} from \"@angular/core\";\r\nimport {CanActivate, Router} from \"@angular/router\"; \r\nimport { SessionService } from \"../services/session.service\";\r\n\r\n@Injectable({providedIn: 'root'})\r\nexport class AuthGuard implements CanActivate {\r\n\r\n  constructor( \r\n    private router: Router,\r\n    private sessionService: SessionService,\r\n  ) {\r\n  }\r\n\r\n  public canActivate(): boolean {\r\n    if (!this.sessionService.isLogged) {\r\n      this.router.navigate(['login']);\r\n      return false;\r\n    }\r\n    return true;\r\n  }\r\n}"
+        "import {Injectable} from \"@angular/core\";\nimport {CanActivate, Router} from \"@angular/router\"; \nimport { SessionService } from \"../services/session.service\";\n\n@Injectable({providedIn: 'root'})\nexport class AuthGuard implements CanActivate {\n\n  constructor( \n    private router: Router,\n    private sessionService: SessionService,\n  ) {\n  }\n\n  public canActivate(): boolean {\n    if (!this.sessionService.isLogged) {\n      this.router.navigate(['login']);\n      return false;\n    }\n    return true;\n  }\n}"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "e65906a817230f2211c77433fee9f23f923c1f9f"
+    "hash": "44ac8edc52ccb68688c54ec2c98dba6eadf02ca5"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\guards\\unauth.guard.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\guards\\unauth.guard.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/guards/unauth.guard.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/guards/unauth.guard.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -3379,17 +3379,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\guards\\unauth.guard.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/guards/unauth.guard.ts"
       ],
       "sourcesContent": [
-        "import {Injectable} from \"@angular/core\";\r\nimport {CanActivate, Router} from \"@angular/router\"; \r\nimport { SessionService } from \"../services/session.service\";\r\n\r\n@Injectable({providedIn: 'root'})\r\nexport class UnauthGuard implements CanActivate {\r\n\r\n  constructor( \r\n    private router: Router,\r\n    private sessionService: SessionService,\r\n  ) {\r\n  }\r\n\r\n  public canActivate(): boolean {\r\n    if (this.sessionService.isLogged) {\r\n      this.router.navigate(['rentals']);\r\n      return false;\r\n    }\r\n    return true;\r\n  }\r\n}"
+        "import {Injectable} from \"@angular/core\";\nimport {CanActivate, Router} from \"@angular/router\"; \nimport { SessionService } from \"../services/session.service\";\n\n@Injectable({providedIn: 'root'})\nexport class UnauthGuard implements CanActivate {\n\n  constructor( \n    private router: Router,\n    private sessionService: SessionService,\n  ) {\n  }\n\n  public canActivate(): boolean {\n    if (this.sessionService.isLogged) {\n      this.router.navigate(['rentals']);\n      return false;\n    }\n    return true;\n  }\n}"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b91cf36792b06abd688ac1a64255769802787c16"
+    "hash": "4b88949b7af3924bf27c131b9f3289caeec0fc4a"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app-routing.module.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app-routing.module.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app-routing.module.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app-routing.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -3737,17 +3737,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app-routing.module.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app-routing.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { MeComponent } from './components/me/me.component';\r\nimport { NotFoundComponent } from './components/not-found/not-found.component';\r\nimport { AuthGuard } from './guards/auth.guard';\r\nimport { UnauthGuard } from './guards/unauth.guard';\r\n\r\nconst routes: Routes = [\r\n  {\r\n    path: '',\r\n    canActivate: [UnauthGuard],\r\n    loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule)\r\n  },\r\n  {\r\n    path: 'sessions',\r\n    canActivate: [AuthGuard],\r\n    loadChildren: () => import('./features/sessions/sessions.module').then(m => m.SessionsModule)\r\n  },\r\n  {\r\n    path: 'me',\r\n    canActivate: [AuthGuard],\r\n    component: MeComponent\r\n  },\r\n  { path: '404', component: NotFoundComponent },\r\n  { path: '**', redirectTo: '404' }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forRoot(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class AppRoutingModule {\r\n}\r\n"
+        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { MeComponent } from './components/me/me.component';\nimport { NotFoundComponent } from './components/not-found/not-found.component';\nimport { AuthGuard } from './guards/auth.guard';\nimport { UnauthGuard } from './guards/unauth.guard';\n\nconst routes: Routes = [\n  {\n    path: '',\n    canActivate: [UnauthGuard],\n    loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule)\n  },\n  {\n    path: 'sessions',\n    canActivate: [AuthGuard],\n    loadChildren: () => import('./features/sessions/sessions.module').then(m => m.SessionsModule)\n  },\n  {\n    path: 'me',\n    canActivate: [AuthGuard],\n    component: MeComponent\n  },\n  { path: '404', component: NotFoundComponent },\n  { path: '**', redirectTo: '404' }\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule {\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "1c1e4de2c5056271cb3dc0b1cadae13a56b7f5fa"
+    "hash": "4f86336de8cc3c7b7188b2af8c5e9c712281acba"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\services\\auth.service.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\services\\auth.service.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/services/auth.service.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/services/auth.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -4043,17 +4043,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\services\\auth.service.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/services/auth.service.ts"
       ],
       "sourcesContent": [
-        "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { LoginRequest } from '../interfaces/loginRequest.interface';\r\nimport { RegisterRequest } from '../interfaces/registerRequest.interface';\r\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class AuthService {\r\n\r\n  private pathService = 'api/auth';\r\n\r\n  constructor(private httpClient: HttpClient) { }\r\n\r\n  public register(registerRequest: RegisterRequest): Observable<void> {\r\n    return this.httpClient.post<void>(`${this.pathService}/register`, registerRequest);\r\n  }\r\n\r\n  public login(loginRequest: LoginRequest): Observable<SessionInformation> {\r\n    return this.httpClient.post<SessionInformation>(`${this.pathService}/login`, loginRequest);\r\n  }\r\n}\r\n"
+        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { LoginRequest } from '../interfaces/loginRequest.interface';\nimport { RegisterRequest } from '../interfaces/registerRequest.interface';\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class AuthService {\n\n  private pathService = 'api/auth';\n\n  constructor(private httpClient: HttpClient) { }\n\n  public register(registerRequest: RegisterRequest): Observable<void> {\n    return this.httpClient.post<void>(`${this.pathService}/register`, registerRequest);\n  }\n\n  public login(loginRequest: LoginRequest): Observable<SessionInformation> {\n    return this.httpClient.post<SessionInformation>(`${this.pathService}/login`, loginRequest);\n  }\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "efcb8764c94bca563bf668a67c37e05b51003a50"
+    "hash": "24e9fd65ce355ed0b209645fc776a91b1c8ff316"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app.component.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app.component.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app.component.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -4937,7 +4937,7 @@
       }
     },
     "s": {
-      "0": 905,
+      "0": 842,
       "1": 23,
       "2": 23,
       "3": 23,
@@ -4952,7 +4952,7 @@
       "12": 2,
       "13": 23,
       "14": 23,
-      "15": 1273,
+      "15": 1274,
       "16": 31,
       "17": 31,
       "18": 31,
@@ -4963,13 +4963,13 @@
       "23": 27,
       "24": 27,
       "25": 27,
-      "26": 2124,
+      "26": 2062,
       "27": 2,
       "28": 2,
       "29": 27,
       "30": 27,
       "31": 27,
-      "32": 2151,
+      "32": 2089,
       "33": 27,
       "34": 27,
       "35": 27,
@@ -4980,31 +4980,31 @@
       "40": 27,
       "41": 27,
       "42": 27,
-      "43": 2151,
-      "44": 2124,
-      "45": 2124,
-      "46": 2124,
+      "43": 2089,
+      "44": 2062,
+      "45": 2062,
+      "46": 2062,
       "47": 27
     },
     "f": {
-      "0": 905,
+      "0": 842,
       "1": 2,
-      "2": 1273,
+      "2": 1274,
       "3": 27,
       "4": 27,
-      "5": 2124,
+      "5": 2062,
       "6": 2,
       "7": 27,
-      "8": 2151
+      "8": 2089
     },
     "b": {
       "0": [
         23,
-        882
+        819
       ],
       "1": [
         31,
-        1242
+        1243
       ],
       "2": [
         27,
@@ -5012,10 +5012,10 @@
       ],
       "3": [
         27,
-        2124
+        2062
       ],
       "4": [
-        2124,
+        2062,
         27
       ]
     },
@@ -5042,19 +5042,19 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app.component.html",
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app.component.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app.component.html",
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app.component.ts"
       ],
       "sourcesContent": [
-        "<div class=\"app\">\r\n  <mat-toolbar color=\"primary\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n    <span>Yoga app</span>\r\n    <div *ngIf=\"$isLogged() | async; else notLogged\">\r\n      <span routerLink=\"sessions\" class=\"link\">Sessions</span>\r\n      <span routerLink=\"me\" class=\"link\">Account</span>\r\n      <span (click)=\"logout()\" class=\"link\">Logout</span>\r\n    </div>\r\n    <ng-template #notLogged>\r\n      <div>\r\n        <span routerLink=\"login\" class=\"link\">Login</span>\r\n        <span routerLink=\"register\" class=\"link\">Register</span>\r\n      </div>\r\n    </ng-template>\r\n  </mat-toolbar>\r\n  <div>\r\n    <router-outlet></router-outlet>\r\n  </div>\r\n</div>\r\n",
-        "import { Component, OnInit } from '@angular/core';\r\nimport { Router } from '@angular/router';\r\nimport { Observable } from 'rxjs';\r\nimport { AuthService } from './features/auth/services/auth.service';\r\nimport { SessionInformation } from './interfaces/sessionInformation.interface';\r\nimport { SessionService } from './services/session.service';\r\n\r\n@Component({\r\n  selector: 'app-root',\r\n  templateUrl: './app.component.html',\r\n  styleUrls: ['./app.component.scss']\r\n})\r\nexport class AppComponent {\r\n  constructor(\r\n    private authService: AuthService,\r\n    private router: Router,\r\n    private sessionService: SessionService) {\r\n  }\r\n\r\n  public $isLogged(): Observable<boolean> {\r\n    return this.sessionService.$isLogged();\r\n  }\r\n\r\n  public logout(): void {\r\n    this.sessionService.logOut();\r\n    this.router.navigate([''])\r\n  }\r\n}\r\n"
+        "<div class=\"app\">\n  <mat-toolbar color=\"primary\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n    <span>Yoga app</span>\n    <div *ngIf=\"$isLogged() | async; else notLogged\">\n      <span routerLink=\"sessions\" class=\"link\">Sessions</span>\n      <span routerLink=\"me\" class=\"link\">Account</span>\n      <span (click)=\"logout()\" class=\"link\">Logout</span>\n    </div>\n    <ng-template #notLogged>\n      <div>\n        <span routerLink=\"login\" class=\"link\">Login</span>\n        <span routerLink=\"register\" class=\"link\">Register</span>\n      </div>\n    </ng-template>\n  </mat-toolbar>\n  <div>\n    <router-outlet></router-outlet>\n  </div>\n</div>\n",
+        "import { Component, OnInit } from '@angular/core';\nimport { Router } from '@angular/router';\nimport { Observable } from 'rxjs';\nimport { AuthService } from './features/auth/services/auth.service';\nimport { SessionInformation } from './interfaces/sessionInformation.interface';\nimport { SessionService } from './services/session.service';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  constructor(\n    private authService: AuthService,\n    private router: Router,\n    private sessionService: SessionService) {\n  }\n\n  public $isLogged(): Observable<boolean> {\n    return this.sessionService.$isLogged();\n  }\n\n  public logout(): void {\n    this.sessionService.logOut();\n    this.router.navigate([''])\n  }\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "c0dbdabc63d00ccb421b48387ed7e2bbbde4709e"
+    "hash": "b2cfb327d9017741b8ac23dc117d223ad5b97a33"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\interceptors\\jwt.interceptor.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\interceptors\\jwt.interceptor.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/interceptors/jwt.interceptor.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/interceptors/jwt.interceptor.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -5371,17 +5371,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\interceptors\\jwt.interceptor.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/interceptors/jwt.interceptor.ts"
       ],
       "sourcesContent": [
-        "import { HttpHandler, HttpInterceptor, HttpRequest } from \"@angular/common/http\";\r\nimport { Injectable } from \"@angular/core\";\r\nimport { SessionService } from '../services/session.service';\r\n\r\n@Injectable({ providedIn: 'root' })\r\nexport class JwtInterceptor implements HttpInterceptor {\r\n  constructor(private sessionService: SessionService) {}\r\n\r\n  public intercept(request: HttpRequest<any>, next: HttpHandler) {\r\n    if (this.sessionService.isLogged) {\r\n      request = request.clone({\r\n        setHeaders: {\r\n          Authorization: `Bearer ${this.sessionService.sessionInformation!.token}`,\r\n        },\r\n      });\r\n    }\r\n    return next.handle(request);\r\n  }\r\n}\r\n"
+        "import { HttpHandler, HttpInterceptor, HttpRequest } from \"@angular/common/http\";\nimport { Injectable } from \"@angular/core\";\nimport { SessionService } from '../services/session.service';\n\n@Injectable({ providedIn: 'root' })\nexport class JwtInterceptor implements HttpInterceptor {\n  constructor(private sessionService: SessionService) {}\n\n  public intercept(request: HttpRequest<any>, next: HttpHandler) {\n    if (this.sessionService.isLogged) {\n      request = request.clone({\n        setHeaders: {\n          Authorization: `Bearer ${this.sessionService.sessionInformation!.token}`,\n        },\n      });\n    }\n    return next.handle(request);\n  }\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3918855655d203f108b8fd8bd5ed197b5eb2b205"
+    "hash": "f60e55a0873fba76c37ddbf81ed92bbaaa7f662b"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app.module.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app.module.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app.module.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -5588,17 +5588,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\app.module.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/app.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\r\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\n\r\nimport { AppRoutingModule } from './app-routing.module';\r\nimport { AppComponent } from './app.component';\r\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\r\nimport { NotFoundComponent } from './components/not-found/not-found.component';\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatIconModule } from '@angular/material/icon';\r\nimport { MatToolbarModule } from '@angular/material/toolbar';\r\nimport { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';\r\nimport { JwtInterceptor } from './interceptors/jwt.interceptor';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { FlexLayoutModule } from '@angular/flex-layout';\r\nimport { MeComponent } from './components/me/me.component';\r\n\r\nconst materialModule = [\r\n  MatButtonModule,\r\n  MatCardModule,\r\n  MatIconModule,\r\n  MatSnackBarModule,\r\n  MatToolbarModule,\r\n]\r\n\r\n@NgModule({\r\n  declarations: [\r\n    AppComponent,\r\n    NotFoundComponent,\r\n    MeComponent,\r\n  ],\r\n  imports: [\r\n    BrowserModule,\r\n    AppRoutingModule,\r\n    BrowserAnimationsModule, \r\n    FlexLayoutModule,\r\n    HttpClientModule,\r\n    ...materialModule\r\n  ],\r\n  providers: [\r\n    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },\r\n  ],\r\n  bootstrap: [AppComponent]\r\n})\r\nexport class AppModule { }\r\n"
+        "import { NgModule } from '@angular/core';\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\nimport { NotFoundComponent } from './components/not-found/not-found.component';\nimport { MatButtonModule } from '@angular/material/button';\nimport { MatIconModule } from '@angular/material/icon';\nimport { MatToolbarModule } from '@angular/material/toolbar';\nimport { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';\nimport { JwtInterceptor } from './interceptors/jwt.interceptor';\nimport { MatCardModule } from '@angular/material/card';\nimport { FlexLayoutModule } from '@angular/flex-layout';\nimport { MeComponent } from './components/me/me.component';\n\nconst materialModule = [\n  MatButtonModule,\n  MatCardModule,\n  MatIconModule,\n  MatSnackBarModule,\n  MatToolbarModule,\n]\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    NotFoundComponent,\n    MeComponent,\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n    BrowserAnimationsModule, \n    FlexLayoutModule,\n    HttpClientModule,\n    ...materialModule\n  ],\n  providers: [\n    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },\n  ],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "fcec677fb5086c3c1a139e6d292c3fbe331e979d"
+    "hash": "ded3af4ccdf12a056e78fb810ffafc2c013b9a3d"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\environments\\environment.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\environments\\environment.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/environments/environment.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/environments/environment.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -5628,17 +5628,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\environments\\environment.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/environments/environment.ts"
       ],
       "sourcesContent": [
-        "export const environment = {\r\n  baseUrl: 'localhost:8080/api/',\r\n  production: false\r\n};\r\n"
+        "export const environment = {\n  baseUrl: 'localhost:8080/api/',\n  production: false\n};\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "6ee754133bc59030e07a7e573cee38a409728ca6"
+    "hash": "ed416d135e0508e6afe43fa9ec62f398d11a2a67"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\main.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\main.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/main.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/main.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -5777,17 +5777,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\main.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/main.ts"
       ],
       "sourcesContent": [
-        "import { enableProdMode } from '@angular/core';\r\nimport { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\r\n\r\nimport { AppModule } from './app/app.module';\r\nimport { environment } from './environments/environment';\r\n\r\nif (environment.production) {\r\n  enableProdMode();\r\n}\r\n\r\nplatformBrowserDynamic().bootstrapModule(AppModule)\r\n  .catch(err => console.error(err));\r\n"
+        "import { enableProdMode } from '@angular/core';\nimport { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\n\nimport { AppModule } from './app/app.module';\nimport { environment } from './environments/environment';\n\nif (environment.production) {\n  enableProdMode();\n}\n\nplatformBrowserDynamic().bootstrapModule(AppModule)\n  .catch(err => console.error(err));\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "eec6eaa126026d6f8239d0cd77375150604c0be5"
+    "hash": "ba23477c8f1e45bc8f91b67a258ad323542423b1"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/components/login/login.component.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/components/login/login.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -6955,19 +6955,19 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts",
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.html"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/components/login/login.component.ts",
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/components/login/login.component.html"
       ],
       "sourcesContent": [
-        "import { Component } from '@angular/core';\r\nimport { FormBuilder, Validators } from '@angular/forms';\r\nimport { Router } from '@angular/router';\r\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\r\nimport { SessionService } from 'src/app/services/session.service';\r\nimport { LoginRequest } from '../../interfaces/loginRequest.interface';\r\nimport { AuthService } from '../../services/auth.service';\r\n\r\n@Component({\r\n  selector: 'app-login',\r\n  templateUrl: './login.component.html',\r\n  styleUrls: ['./login.component.scss']\r\n})\r\nexport class LoginComponent {\r\n  public hide = true;\r\n  public onError = false;\r\n\r\n  public form = this.fb.group({\r\n    email: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.email\r\n      ]\r\n    ],\r\n    password: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.min(3)\r\n      ]\r\n    ]\r\n  });\r\n\r\n  constructor(private authService: AuthService,\r\n              private fb: FormBuilder,\r\n              private router: Router,\r\n              private sessionService: SessionService) {\r\n  }\r\n\r\n  public submit(): void {\r\n    const loginRequest = this.form.value as LoginRequest;\r\n    this.authService.login(loginRequest).subscribe({\r\n      next: (response: SessionInformation) => {\r\n        this.sessionService.logIn(response);\r\n        this.router.navigate(['/sessions']);\r\n      },\r\n      error: error => this.onError = true,\r\n    });\r\n  }\r\n}\r\n",
-        "<div class=\"login\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\r\n    <mat-card>\r\n        <mat-card-header fxLayoutAlign=\"center center\">\r\n            <mat-card-title>Login</mat-card-title>\r\n        </mat-card-header>\r\n        <form class=\"login-form\" [formGroup]=\"form\" (ngSubmit)=\"submit()\">\r\n            <mat-card-content fxLayout=\"column\">\r\n                <mat-form-field fxFlex>\r\n                    <input data-testid=\"emailInput\" matInput placeholder=\"Email\" formControlName=\"email\">\r\n                </mat-form-field>\r\n                <mat-form-field fxFlex>\r\n                    <input data-testid=\"passwordInput\" matInput [type]=\"hide ? 'password' : 'text'\" placeholder=\"Password\"\r\n                        formControlName=\"password\">\r\n                    <button mat-icon-button matSuffix (click)=\"hide = !hide\" [attr.aria-label]=\"'Hide password'\"\r\n                        [attr.aria-pressed]=\"hide\">\r\n                        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                    </button>\r\n                </mat-form-field>\r\n            </mat-card-content>\r\n            <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Submit</button>\r\n            <p *ngIf=\"onError\" class=\"error\">An error occurred</p>\r\n        </form>\r\n    </mat-card>\r\n</div>"
+        "import { Component } from '@angular/core';\nimport { FormBuilder, Validators } from '@angular/forms';\nimport { Router } from '@angular/router';\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\nimport { SessionService } from 'src/app/services/session.service';\nimport { LoginRequest } from '../../interfaces/loginRequest.interface';\nimport { AuthService } from '../../services/auth.service';\n\n@Component({\n  selector: 'app-login',\n  templateUrl: './login.component.html',\n  styleUrls: ['./login.component.scss']\n})\nexport class LoginComponent {\n  public hide = true;\n  public onError = false;\n\n  public form = this.fb.group({\n    email: [\n      '',\n      [\n        Validators.required,\n        Validators.email\n      ]\n    ],\n    password: [\n      '',\n      [\n        Validators.required,\n        Validators.min(3)\n      ]\n    ]\n  });\n\n  constructor(private authService: AuthService,\n              private fb: FormBuilder,\n              private router: Router,\n              private sessionService: SessionService) {\n  }\n\n  public submit(): void {\n    const loginRequest = this.form.value as LoginRequest;\n    this.authService.login(loginRequest).subscribe({\n      next: (response: SessionInformation) => {\n        this.sessionService.logIn(response);\n        this.router.navigate(['/sessions']);\n      },\n      error: error => this.onError = true,\n    });\n  }\n}\n",
+        "<div class=\"login\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\n    <mat-card>\n        <mat-card-header fxLayoutAlign=\"center center\">\n            <mat-card-title>Login</mat-card-title>\n        </mat-card-header>\n        <form class=\"login-form\" [formGroup]=\"form\" (ngSubmit)=\"submit()\">\n            <mat-card-content fxLayout=\"column\">\n                <mat-form-field fxFlex>\n                    <input data-testid=\"emailInput\" matInput placeholder=\"Email\" formControlName=\"email\">\n                </mat-form-field>\n                <mat-form-field fxFlex>\n                    <input data-testid=\"passwordInput\" matInput [type]=\"hide ? 'password' : 'text'\" placeholder=\"Password\"\n                        formControlName=\"password\">\n                    <button mat-icon-button matSuffix (click)=\"hide = !hide\" [attr.aria-label]=\"'Hide password'\"\n                        [attr.aria-pressed]=\"hide\">\n                        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                    </button>\n                </mat-form-field>\n            </mat-card-content>\n            <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Submit</button>\n            <p *ngIf=\"onError\" class=\"error\">An error occurred</p>\n        </form>\n    </mat-card>\n</div>"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "37093989d7b9b1bc1f131d74c7003e2ca12b6a2a"
+    "hash": "d1a730ea1f37309b91ab4e92e5e7fddf76597eeb"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/components/register/register.component.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/components/register/register.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -7943,19 +7943,19 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts",
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.html"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/components/register/register.component.ts",
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/components/register/register.component.html"
       ],
       "sourcesContent": [
-        "import { Component } from '@angular/core';\r\nimport { FormBuilder, Validators } from '@angular/forms';\r\nimport { Router } from '@angular/router';\r\nimport { AuthService } from '../../services/auth.service';\r\nimport { RegisterRequest } from '../../interfaces/registerRequest.interface';\r\n\r\n@Component({\r\n  selector: 'app-register',\r\n  templateUrl: './register.component.html',\r\n  styleUrls: ['./register.component.scss']\r\n})\r\nexport class RegisterComponent {\r\n\r\n  public onError = false;\r\n\r\n  public form = this.fb.group({\r\n    email: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.email\r\n      ]\r\n    ],\r\n    firstName: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.min(3),\r\n        Validators.max(20)\r\n      ]\r\n    ],\r\n    lastName: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.min(3),\r\n        Validators.max(20)\r\n      ]\r\n    ],\r\n    password: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.min(3),\r\n        Validators.max(40)\r\n      ]\r\n    ]\r\n  });\r\n\r\n  constructor(private authService: AuthService,\r\n              private fb: FormBuilder,\r\n              private router: Router) {\r\n  }\r\n\r\n  public submit(): void {\r\n    const registerRequest = this.form.value as RegisterRequest;\r\n    this.authService.register(registerRequest).subscribe({\r\n        next: (_: void) => this.router.navigate(['/login']),\r\n        error: _ => this.onError = true,\r\n      }\r\n    );\r\n  }\r\n\r\n}\r\n",
-        "<div class=\"register\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\r\n    <mat-card>\r\n        <mat-card-header fxLayoutAlign=\"center center\">\r\n            <mat-card-title>Register</mat-card-title>\r\n        </mat-card-header>\r\n        <form class=\"register-form\" [formGroup]=\"form\" (ngSubmit)=\"submit()\">\r\n            <mat-card-content fxLayout=\"column\">\r\n                <mat-form-field fxFlex>\r\n                    <input matInput placeholder=\"First name\" formControlName=\"firstName\">\r\n                </mat-form-field>\r\n                <mat-form-field fxFlex>\r\n                    <input matInput placeholder=\"Last name\" formControlName=\"lastName\">\r\n                </mat-form-field>\r\n                <mat-form-field fxFlex>\r\n                    <input matInput placeholder=\"Email\" formControlName=\"email\">\r\n                </mat-form-field>\r\n                <mat-form-field fxFlex>\r\n                    <input matInput placeholder=\"Password\" formControlName=\"password\">\r\n                </mat-form-field>\r\n            </mat-card-content>\r\n            <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Submit</button>\r\n            <span *ngIf=\"onError\" class=\"error ml2\">An error occurred</span>\r\n        </form>\r\n    </mat-card>\r\n</div>\r\n"
+        "import { Component } from '@angular/core';\nimport { FormBuilder, Validators } from '@angular/forms';\nimport { Router } from '@angular/router';\nimport { AuthService } from '../../services/auth.service';\nimport { RegisterRequest } from '../../interfaces/registerRequest.interface';\n\n@Component({\n  selector: 'app-register',\n  templateUrl: './register.component.html',\n  styleUrls: ['./register.component.scss']\n})\nexport class RegisterComponent {\n\n  public onError = false;\n\n  public form = this.fb.group({\n    email: [\n      '',\n      [\n        Validators.required,\n        Validators.email\n      ]\n    ],\n    firstName: [\n      '',\n      [\n        Validators.required,\n        Validators.min(3),\n        Validators.max(20)\n      ]\n    ],\n    lastName: [\n      '',\n      [\n        Validators.required,\n        Validators.min(3),\n        Validators.max(20)\n      ]\n    ],\n    password: [\n      '',\n      [\n        Validators.required,\n        Validators.min(3),\n        Validators.max(40)\n      ]\n    ]\n  });\n\n  constructor(private authService: AuthService,\n              private fb: FormBuilder,\n              private router: Router) {\n  }\n\n  public submit(): void {\n    const registerRequest = this.form.value as RegisterRequest;\n    this.authService.register(registerRequest).subscribe({\n        next: (_: void) => this.router.navigate(['/login']),\n        error: _ => this.onError = true,\n      }\n    );\n  }\n\n}\n",
+        "<div class=\"register\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\n    <mat-card>\n        <mat-card-header fxLayoutAlign=\"center center\">\n            <mat-card-title>Register</mat-card-title>\n        </mat-card-header>\n        <form class=\"register-form\" [formGroup]=\"form\" (ngSubmit)=\"submit()\">\n            <mat-card-content fxLayout=\"column\">\n                <mat-form-field fxFlex>\n                    <input matInput placeholder=\"First name\" formControlName=\"firstName\">\n                </mat-form-field>\n                <mat-form-field fxFlex>\n                    <input matInput placeholder=\"Last name\" formControlName=\"lastName\">\n                </mat-form-field>\n                <mat-form-field fxFlex>\n                    <input matInput placeholder=\"Email\" formControlName=\"email\">\n                </mat-form-field>\n                <mat-form-field fxFlex>\n                    <input matInput placeholder=\"Password\" formControlName=\"password\">\n                </mat-form-field>\n            </mat-card-content>\n            <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Submit</button>\n            <span *ngIf=\"onError\" class=\"error ml2\">An error occurred</span>\n        </form>\n    </mat-card>\n</div>\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "0b801acd6a7e8cf79bf4cfc770b37b905604febc"
+    "hash": "796f24f976e7b165aefba4e3898a91fe1826e43e"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth-routing.module.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth-routing.module.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/auth-routing.module.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/auth-routing.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -8151,17 +8151,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth-routing.module.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/auth-routing.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { LoginComponent } from './components/login/login.component';\r\nimport { RegisterComponent } from './components/register/register.component';\r\n\r\n\r\nconst routes: Routes = [\r\n  { title: 'Login', path: 'login', component: LoginComponent },\r\n  { title: 'Register', path: 'register', component: RegisterComponent }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forChild(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class AuthRoutingModule { }\r\n"
+        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { LoginComponent } from './components/login/login.component';\nimport { RegisterComponent } from './components/register/register.component';\n\n\nconst routes: Routes = [\n  { title: 'Login', path: 'login', component: LoginComponent },\n  { title: 'Register', path: 'register', component: RegisterComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class AuthRoutingModule { }\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "c7cc3e8f727494d1704e53b2742456782813ea86"
+    "hash": "789e0c870c62f3626049140c618a7b4b92c8dc11"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth.module.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth.module.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/auth.module.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/auth.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -8360,17 +8360,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth.module.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/auth/auth.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\r\nimport { CommonModule } from '@angular/common';\r\nimport { AuthRoutingModule } from './auth-routing.module';\r\nimport { RegisterComponent } from './components/register/register.component';\r\nimport { LoginComponent } from './components/login/login.component';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { MatFormFieldModule } from '@angular/material/form-field';\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatInputModule } from '@angular/material/input';\r\nimport { FlexLayoutModule } from '@angular/flex-layout';\r\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\r\nimport { MatIconModule } from '@angular/material/icon';\r\n\r\nconst materialModules = [\r\n  MatButtonModule,\r\n  MatCardModule,\r\n  MatFormFieldModule,\r\n  MatIconModule,\r\n  MatInputModule\r\n]\r\n\r\n@NgModule({\r\n  declarations: [\r\n    RegisterComponent,\r\n    LoginComponent\r\n  ],\r\n  imports: [\r\n    AuthRoutingModule,\r\n    CommonModule,\r\n    FlexLayoutModule,\r\n    FormsModule,\r\n    ReactiveFormsModule,\r\n    ...materialModules\r\n  ]\r\n})\r\nexport class AuthModule { }\r\n"
+        "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { AuthRoutingModule } from './auth-routing.module';\nimport { RegisterComponent } from './components/register/register.component';\nimport { LoginComponent } from './components/login/login.component';\nimport { MatCardModule } from '@angular/material/card';\nimport { MatFormFieldModule } from '@angular/material/form-field';\nimport { MatButtonModule } from '@angular/material/button';\nimport { MatInputModule } from '@angular/material/input';\nimport { FlexLayoutModule } from '@angular/flex-layout';\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\nimport { MatIconModule } from '@angular/material/icon';\n\nconst materialModules = [\n  MatButtonModule,\n  MatCardModule,\n  MatFormFieldModule,\n  MatIconModule,\n  MatInputModule\n]\n\n@NgModule({\n  declarations: [\n    RegisterComponent,\n    LoginComponent\n  ],\n  imports: [\n    AuthRoutingModule,\n    CommonModule,\n    FlexLayoutModule,\n    FormsModule,\n    ReactiveFormsModule,\n    ...materialModules\n  ]\n})\nexport class AuthModule { }\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d626d96b4b3c3e8c2e4d85c44e2fc44dcbcab5b8"
+    "hash": "ba49f559171f09725e12837c629e4855e6ee67fb"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/services/session-api.service.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/services/session-api.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -8854,17 +8854,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/services/session-api.service.ts"
       ],
       "sourcesContent": [
-        "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { Session } from '../interfaces/session.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class SessionApiService {\r\n\r\n  private pathService = 'api/session';\r\n\r\n  constructor(private httpClient: HttpClient) {\r\n  }\r\n\r\n  public all(): Observable<Session[]> {\r\n    return this.httpClient.get<Session[]>(this.pathService);\r\n  }\r\n\r\n  public detail(id: string): Observable<Session> {\r\n    return this.httpClient.get<Session>(`${this.pathService}/${id}`);\r\n  }\r\n\r\n  public delete(id: string): Observable<any> {\r\n    return this.httpClient.delete(`${this.pathService}/${id}`);\r\n  }\r\n\r\n  public create(session: Session): Observable<Session> {\r\n    return this.httpClient.post<Session>(this.pathService, session);\r\n  }\r\n\r\n  public update(id: string, session: Session): Observable<Session> {\r\n    return this.httpClient.put<Session>(`${this.pathService}/${id}`, session);\r\n  }\r\n\r\n  public participate(id: string, userId: string): Observable<void> {\r\n    return this.httpClient.post<void>(`${this.pathService}/${id}/participate/${userId}`, null);\r\n  }\r\n\r\n  public unParticipate(id: string, userId: string): Observable<void> {\r\n    return this.httpClient.delete<void>(`${this.pathService}/${id}/participate/${userId}`);\r\n  }\r\n\r\n}\r\n"
+        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { Session } from '../interfaces/session.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class SessionApiService {\n\n  private pathService = 'api/session';\n\n  constructor(private httpClient: HttpClient) {\n  }\n\n  public all(): Observable<Session[]> {\n    return this.httpClient.get<Session[]>(this.pathService);\n  }\n\n  public detail(id: string): Observable<Session> {\n    return this.httpClient.get<Session>(`${this.pathService}/${id}`);\n  }\n\n  public delete(id: string): Observable<any> {\n    return this.httpClient.delete(`${this.pathService}/${id}`);\n  }\n\n  public create(session: Session): Observable<Session> {\n    return this.httpClient.post<Session>(this.pathService, session);\n  }\n\n  public update(id: string, session: Session): Observable<Session> {\n    return this.httpClient.put<Session>(`${this.pathService}/${id}`, session);\n  }\n\n  public participate(id: string, userId: string): Observable<void> {\n    return this.httpClient.post<void>(`${this.pathService}/${id}/participate/${userId}`, null);\n  }\n\n  public unParticipate(id: string, userId: string): Observable<void> {\n    return this.httpClient.delete<void>(`${this.pathService}/${id}/participate/${userId}`);\n  }\n\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "2f6ebf83d0179f47a0c79cded9e18c15c771ba54"
+    "hash": "d07753ac3c4f1f2bba028302d33fe4f569a5b4ac"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\services\\teacher.service.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\services\\teacher.service.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/services/teacher.service.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/services/teacher.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -9159,17 +9159,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\services\\teacher.service.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/services/teacher.service.ts"
       ],
       "sourcesContent": [
-        "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { Teacher } from '../interfaces/teacher.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class TeacherService {\r\n\r\n  private pathService = 'api/teacher';\r\n\r\n  constructor(private httpClient: HttpClient) { }\r\n\r\n  public all(): Observable<Teacher[]> {\r\n    return this.httpClient.get<Teacher[]>(this.pathService);\r\n  }\r\n\r\n  public detail(id: string): Observable<Teacher> {\r\n    return this.httpClient.get<Teacher>(`${this.pathService}/${id}`);\r\n  }\r\n}\r\n"
+        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { Teacher } from '../interfaces/teacher.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class TeacherService {\n\n  private pathService = 'api/teacher';\n\n  constructor(private httpClient: HttpClient) { }\n\n  public all(): Observable<Teacher[]> {\n    return this.httpClient.get<Teacher[]>(this.pathService);\n  }\n\n  public detail(id: string): Observable<Teacher> {\n    return this.httpClient.get<Teacher>(`${this.pathService}/${id}`);\n  }\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b12d6661e9c0a52501d6571422f10f530b1808f4"
+    "hash": "f2f5dc57940468b97f958ca7c247e8e5b956b766"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/detail/detail.component.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/detail/detail.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -11986,7 +11986,7 @@
       "10": 2,
       "11": 2,
       "12": 2,
-      "13": 18,
+      "13": 12,
       "14": 2,
       "15": 2,
       "16": 2,
@@ -12012,30 +12012,30 @@
       "36": 0,
       "37": 0,
       "38": 0,
-      "39": 18,
+      "39": 12,
       "40": 2,
       "41": 2,
       "42": 2,
       "43": 2,
-      "44": 18,
-      "45": 16,
-      "46": 16,
-      "47": 16,
-      "48": 16,
-      "49": 16,
-      "50": 20,
-      "51": 4,
-      "52": 4,
-      "53": 4,
-      "54": 4,
-      "55": 4,
-      "56": 4,
-      "57": 4,
-      "58": 20,
-      "59": 16,
-      "60": 16,
-      "61": 16,
-      "62": 44,
+      "44": 12,
+      "45": 10,
+      "46": 10,
+      "47": 10,
+      "48": 10,
+      "49": 10,
+      "50": 17,
+      "51": 3,
+      "52": 3,
+      "53": 3,
+      "54": 3,
+      "55": 3,
+      "56": 3,
+      "57": 3,
+      "58": 17,
+      "59": 14,
+      "60": 14,
+      "61": 14,
+      "62": 38,
       "63": 4,
       "64": 4,
       "65": 4,
@@ -12088,26 +12088,26 @@
       "112": 4,
       "113": 4,
       "114": 4,
-      "115": 44,
-      "116": 40,
-      "117": 40,
-      "118": 40,
-      "119": 40,
-      "120": 40,
-      "121": 40,
-      "122": 40,
-      "123": 40,
-      "124": 40,
-      "125": 40,
-      "126": 40,
-      "127": 40,
-      "128": 40,
-      "129": 40,
-      "130": 40,
-      "131": 40,
-      "132": 40,
-      "133": 40,
-      "134": 40,
+      "115": 38,
+      "116": 34,
+      "117": 34,
+      "118": 34,
+      "119": 34,
+      "120": 34,
+      "121": 34,
+      "122": 34,
+      "123": 34,
+      "124": 34,
+      "125": 34,
+      "126": 34,
+      "127": 34,
+      "128": 34,
+      "129": 34,
+      "130": 34,
+      "131": 34,
+      "132": 34,
+      "133": 34,
+      "134": 34,
       "135": 23,
       "136": 4,
       "137": 4,
@@ -12135,29 +12135,29 @@
       "159": 4,
       "160": 0,
       "161": 4,
-      "162": 4,
+      "162": 3,
       "163": 23,
       "164": 4,
       "165": 23,
-      "166": 64,
+      "166": 58,
       "167": 4,
       "168": 4,
       "169": 4,
-      "170": 64,
-      "171": 60,
-      "172": 60,
+      "170": 58,
+      "171": 54,
+      "172": 54,
       "173": 23
     },
     "f": {
       "0": 26,
       "1": 2,
-      "2": 18,
+      "2": 12,
       "3": 0,
       "4": 0,
       "5": 0,
-      "6": 18,
-      "7": 20,
-      "8": 44,
+      "6": 12,
+      "7": 17,
+      "8": 38,
       "9": 0,
       "10": 23,
       "11": 4,
@@ -12172,9 +12172,9 @@
       "20": 4,
       "21": 4,
       "22": 0,
-      "23": 4,
+      "23": 3,
       "24": 4,
-      "25": 64
+      "25": 58
     },
     "b": {
       "0": [
@@ -12183,7 +12183,7 @@
       ],
       "1": [
         2,
-        16
+        10
       ],
       "2": [
         0,
@@ -12191,26 +12191,26 @@
       ],
       "3": [
         2,
-        16
+        10
       ],
       "4": [
-        16,
+        10,
         2
       ],
       "5": [
-        4,
-        16
+        3,
+        14
       ],
       "6": [
-        16,
-        4
+        14,
+        3
       ],
       "7": [
         4,
-        40
+        34
       ],
       "8": [
-        40,
+        34,
         4
       ],
       "9": [
@@ -12219,10 +12219,10 @@
       ],
       "10": [
         4,
-        60
+        54
       ],
       "11": [
-        60,
+        54,
         4
       ]
     },
@@ -12279,19 +12279,19 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.html",
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/detail/detail.component.html",
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/detail/detail.component.ts"
       ],
       "sourcesContent": [
-        "<div class=\"m3\">\r\n  <mat-card *ngIf=\"session\">\r\n    <mat-card-title>\r\n      <div fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n        <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\r\n          <button mat-icon-button (click)=\"back()\">\r\n            <mat-icon>arrow_back</mat-icon>\r\n          </button>\r\n          <h1>{{session.name | titlecase}}</h1>\r\n        </div>\r\n        <div>\r\n          <button *ngIf=\"isAdmin\" mat-raised-button color=\"warn\" (click)=\"delete()\" data-testid=\"deleteButton\">\r\n            <mat-icon>delete</mat-icon>\r\n            <span class=\"ml1\">Delete</span>\r\n          </button>\r\n          <div *ngIf=\"!isAdmin\">\r\n            <button *ngIf=\"!isParticipate\" mat-raised-button color=\"primary\" (click)=\"participate()\">\r\n              <mat-icon>person_add</mat-icon>\r\n              <span class=\"ml1\">Participate</span>\r\n            </button>\r\n            <button *ngIf=\"isParticipate\" mat-raised-button color=\"warn\" (click)=\"unParticipate()\">\r\n              <mat-icon>person_remove</mat-icon>\r\n              <span class=\"ml1\">Do not participate</span>\r\n            </button>\r\n\r\n          </div>\r\n\r\n\r\n        </div>\r\n      </div>\r\n    </mat-card-title>\r\n    <mat-card-subtitle *ngIf=\"teacher\">\r\n      <div fxLayoutAlign=\"start center\" class=\"ml3\">\r\n        <mat-icon>\r\n          people\r\n        </mat-icon>\r\n        <span class=\"ml1\">{{ teacher.firstName }} {{ teacher.lastName | uppercase }}</span>\r\n      </div>\r\n    </mat-card-subtitle>\r\n    <div mat-card-image fxLayoutAlign=\"center center\">\r\n      <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\r\n    </div>\r\n    <mat-card-content>\r\n      <div class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n        <div fxLayoutAlign=\"start center\">\r\n          <mat-icon>\r\n            group\r\n          </mat-icon>\r\n          <span class=\"ml1\">{{ session.users.length }} attendees</span>\r\n        </div>\r\n        <div fxLayoutAlign=\"start center\">\r\n          <mat-icon>\r\n            calendar_month\r\n          </mat-icon>\r\n          <span class=\"ml1\">{{ session.date | date: 'longDate'}}</span>\r\n        </div>\r\n      </div>\r\n      <div class=\"description\">\r\n        <p>Description:</p>\r\n        {{ session.description }}\r\n        <br>\r\n      </div>\r\n      <div class=\"date\" class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n        <div class=\"created\"><i>Create at: </i> {{ session.createdAt| date: 'longDate'}}</div>\r\n        <div class=\"updated\"><i>Last update: </i> {{ session.updatedAt| date: 'longDate'}}</div>\r\n      </div>\r\n    </mat-card-content>\r\n  </mat-card>\r\n</div>\r\n",
-        "import { Component, OnInit } from '@angular/core';\r\nimport { FormBuilder } from '@angular/forms';\r\nimport { MatSnackBar } from '@angular/material/snack-bar';\r\nimport { ActivatedRoute, Router } from '@angular/router';\r\nimport { Teacher } from '../../../../interfaces/teacher.interface';\r\nimport { SessionService } from '../../../../services/session.service';\r\nimport { TeacherService } from '../../../../services/teacher.service';\r\nimport { Session } from '../../interfaces/session.interface';\r\nimport { SessionApiService } from '../../services/session-api.service';\r\n\r\n@Component({\r\n  selector: 'app-detail',\r\n  templateUrl: './detail.component.html',\r\n  styleUrls: ['./detail.component.scss']\r\n})\r\nexport class DetailComponent implements OnInit {\r\n  public session: Session | undefined;\r\n  public teacher: Teacher | undefined;\r\n\r\n  public isParticipate = false;\r\n  public isAdmin = false;\r\n\r\n  public sessionId: string;\r\n  public userId: string;\r\n\r\n  constructor(\r\n    private route: ActivatedRoute,\r\n    private fb: FormBuilder,\r\n    private sessionService: SessionService,\r\n    private sessionApiService: SessionApiService,\r\n    private teacherService: TeacherService,\r\n    private matSnackBar: MatSnackBar,\r\n    private router: Router) {\r\n    this.sessionId = this.route.snapshot.paramMap.get('id')!;\r\n    this.isAdmin = this.sessionService.sessionInformation!.admin;\r\n    this.userId = this.sessionService.sessionInformation!.id.toString();\r\n  }\r\n\r\n  public ngOnInit(): void {\r\n    this.fetchSession();\r\n  }\r\n\r\n  public back() {\r\n    window.history.back();\r\n  }\r\n\r\n  public delete(): void {\r\n    this.sessionApiService\r\n      .delete(this.sessionId)\r\n      .subscribe((_: any) => {\r\n          this.matSnackBar.open('Session deleted !', 'Close', { duration: 3000 });\r\n          this.router.navigate(['sessions']);\r\n        }\r\n      );\r\n  }\r\n\r\n  public participate(): void {\r\n    this.sessionApiService.participate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\r\n  }\r\n\r\n  public unParticipate(): void {\r\n    this.sessionApiService.unParticipate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\r\n  }\r\n\r\n  private fetchSession(): void {\r\n    this.sessionApiService\r\n      .detail(this.sessionId)\r\n      .subscribe((session: Session) => {\r\n        this.session = session;\r\n        this.isParticipate = session.users.some(u => u === this.sessionService.sessionInformation!.id);\r\n        this.teacherService\r\n          .detail(session.teacher_id.toString())\r\n          .subscribe((teacher: Teacher) => this.teacher = teacher);\r\n      });\r\n  }\r\n\r\n}\r\n"
+        "<div class=\"m3\">\n  <mat-card *ngIf=\"session\">\n    <mat-card-title>\n      <div fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n        <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\n          <button mat-icon-button (click)=\"back()\">\n            <mat-icon>arrow_back</mat-icon>\n          </button>\n          <h1>{{session.name | titlecase}}</h1>\n        </div>\n        <div>\n          <button *ngIf=\"isAdmin\" mat-raised-button color=\"warn\" (click)=\"delete()\" data-testid=\"deleteButton\">\n            <mat-icon>delete</mat-icon>\n            <span class=\"ml1\">Delete</span>\n          </button>\n          <div *ngIf=\"!isAdmin\">\n            <button *ngIf=\"!isParticipate\" mat-raised-button color=\"primary\" (click)=\"participate()\">\n              <mat-icon>person_add</mat-icon>\n              <span class=\"ml1\">Participate</span>\n            </button>\n            <button *ngIf=\"isParticipate\" mat-raised-button color=\"warn\" (click)=\"unParticipate()\">\n              <mat-icon>person_remove</mat-icon>\n              <span class=\"ml1\">Do not participate</span>\n            </button>\n\n          </div>\n\n\n        </div>\n      </div>\n    </mat-card-title>\n    <mat-card-subtitle *ngIf=\"teacher\">\n      <div fxLayoutAlign=\"start center\" class=\"ml3\">\n        <mat-icon>\n          people\n        </mat-icon>\n        <span class=\"ml1\">{{ teacher.firstName }} {{ teacher.lastName | uppercase }}</span>\n      </div>\n    </mat-card-subtitle>\n    <div mat-card-image fxLayoutAlign=\"center center\">\n      <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\n    </div>\n    <mat-card-content>\n      <div class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n        <div fxLayoutAlign=\"start center\">\n          <mat-icon>\n            group\n          </mat-icon>\n          <span class=\"ml1\">{{ session.users.length }} attendees</span>\n        </div>\n        <div fxLayoutAlign=\"start center\">\n          <mat-icon>\n            calendar_month\n          </mat-icon>\n          <span class=\"ml1\">{{ session.date | date: 'longDate'}}</span>\n        </div>\n      </div>\n      <div class=\"description\">\n        <p>Description:</p>\n        {{ session.description }}\n        <br>\n      </div>\n      <div class=\"date\" class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n        <div class=\"created\"><i>Create at: </i> {{ session.createdAt| date: 'longDate'}}</div>\n        <div class=\"updated\"><i>Last update: </i> {{ session.updatedAt| date: 'longDate'}}</div>\n      </div>\n    </mat-card-content>\n  </mat-card>\n</div>\n",
+        "import { Component, OnInit } from '@angular/core';\nimport { FormBuilder } from '@angular/forms';\nimport { MatSnackBar } from '@angular/material/snack-bar';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { Teacher } from '../../../../interfaces/teacher.interface';\nimport { SessionService } from '../../../../services/session.service';\nimport { TeacherService } from '../../../../services/teacher.service';\nimport { Session } from '../../interfaces/session.interface';\nimport { SessionApiService } from '../../services/session-api.service';\n\n@Component({\n  selector: 'app-detail',\n  templateUrl: './detail.component.html',\n  styleUrls: ['./detail.component.scss']\n})\nexport class DetailComponent implements OnInit {\n  public session: Session | undefined;\n  public teacher: Teacher | undefined;\n\n  public isParticipate = false;\n  public isAdmin = false;\n\n  public sessionId: string;\n  public userId: string;\n\n  constructor(\n    private route: ActivatedRoute,\n    private fb: FormBuilder,\n    private sessionService: SessionService,\n    private sessionApiService: SessionApiService,\n    private teacherService: TeacherService,\n    private matSnackBar: MatSnackBar,\n    private router: Router) {\n    this.sessionId = this.route.snapshot.paramMap.get('id')!;\n    this.isAdmin = this.sessionService.sessionInformation!.admin;\n    this.userId = this.sessionService.sessionInformation!.id.toString();\n  }\n\n  public ngOnInit(): void {\n    this.fetchSession();\n  }\n\n  public back() {\n    window.history.back();\n  }\n\n  public delete(): void {\n    this.sessionApiService\n      .delete(this.sessionId)\n      .subscribe((_: any) => {\n          this.matSnackBar.open('Session deleted !', 'Close', { duration: 3000 });\n          this.router.navigate(['sessions']);\n        }\n      );\n  }\n\n  public participate(): void {\n    this.sessionApiService.participate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\n  }\n\n  public unParticipate(): void {\n    this.sessionApiService.unParticipate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\n  }\n\n  private fetchSession(): void {\n    this.sessionApiService\n      .detail(this.sessionId)\n      .subscribe((session: Session) => {\n        this.session = session;\n        this.isParticipate = session.users.some(u => u === this.sessionService.sessionInformation!.id);\n        this.teacherService\n          .detail(session.teacher_id.toString())\n          .subscribe((teacher: Teacher) => this.teacher = teacher);\n      });\n  }\n\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b992572f7c88deb3123752be4851f5ca5ce1bed8"
+    "hash": "fbde9a8181061fd9a397562720ac4ddefe22fe84"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/form/form.component.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/form/form.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -14558,19 +14558,19 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts",
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.html"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/form/form.component.ts",
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/form/form.component.html"
       ],
       "sourcesContent": [
-        "import { Component, OnInit } from '@angular/core';\r\nimport { FormBuilder, FormGroup, Validators } from '@angular/forms';\r\nimport { MatSnackBar } from '@angular/material/snack-bar';\r\nimport { ActivatedRoute, Router } from '@angular/router';\r\nimport { SessionService } from '../../../../services/session.service';\r\nimport { TeacherService } from '../../../../services/teacher.service';\r\nimport { Session } from '../../interfaces/session.interface';\r\nimport { SessionApiService } from '../../services/session-api.service';\r\n\r\n@Component({\r\n  selector: 'app-form',\r\n  templateUrl: './form.component.html',\r\n  styleUrls: ['./form.component.scss']\r\n})\r\nexport class FormComponent implements OnInit {\r\n\r\n  public onUpdate: boolean = false;\r\n  public sessionForm: FormGroup | undefined;\r\n  public teachers$ = this.teacherService.all();\r\n  private id: string | undefined;\r\n\r\n  constructor(\r\n    private route: ActivatedRoute,\r\n    private fb: FormBuilder,\r\n    private matSnackBar: MatSnackBar,\r\n    private sessionApiService: SessionApiService,\r\n    private sessionService: SessionService,\r\n    private teacherService: TeacherService,\r\n    private router: Router\r\n  ) {\r\n  }\r\n\r\n  public ngOnInit(): void {\r\n    if (!this.sessionService.sessionInformation!.admin) {\r\n      this.router.navigate(['/sessions']);\r\n    }\r\n    const url = this.router.url;\r\n    if (url.includes('update')) {\r\n      this.onUpdate = true;\r\n      this.id = this.route.snapshot.paramMap.get('id')!;\r\n      this.sessionApiService\r\n        .detail(this.id)\r\n        .subscribe((session: Session) => this.initForm(session));\r\n    } else {\r\n      this.initForm();\r\n    }\r\n  }\r\n\r\n  public submit(): void {\r\n    const session = this.sessionForm?.value as Session;\r\n\r\n    if (!this.onUpdate) {\r\n      this.sessionApiService\r\n        .create(session)\r\n        .subscribe((_: Session) => this.exitPage('Session created !'));\r\n    } else {\r\n      this.sessionApiService\r\n        .update(this.id!, session)\r\n        .subscribe((_: Session) => this.exitPage('Session updated !'));\r\n    }\r\n  }\r\n\r\n  private initForm(session?: Session): void {\r\n    this.sessionForm = this.fb.group({\r\n      name: [\r\n        session ? session.name : '',\r\n        [Validators.required]\r\n      ],\r\n      date: [\r\n        session ? new Date(session.date).toISOString().split('T')[0] : '',\r\n        [Validators.required]\r\n      ],\r\n      teacher_id: [\r\n        session ? session.teacher_id : '',\r\n        [Validators.required]\r\n      ],\r\n      description: [\r\n        session ? session.description : '',\r\n        [\r\n          Validators.required,\r\n          Validators.max(2000)\r\n        ]\r\n      ],\r\n    });\r\n  }\r\n\r\n  private exitPage(message: string): void {\r\n    this.matSnackBar.open(message, 'Close', { duration: 3000 });\r\n    this.router.navigate(['sessions']);\r\n  }\r\n}\r\n",
-        "<div class=\"create m3\">\r\n  <mat-card>\r\n    <mat-card-title>\r\n      <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\r\n        <button mat-icon-button routerLink=\"/sessions\">\r\n          <mat-icon>arrow_back</mat-icon>\r\n        </button>\r\n        <h1 *ngIf=\"!onUpdate\">Create session</h1>\r\n        <h1 *ngIf=\"onUpdate\">Update session</h1>\r\n      </div>\r\n    </mat-card-title>\r\n    <mat-card-content *ngIf=\"sessionForm\">\r\n      <form class=\"mt2\" fxLayout=\"column\" [formGroup]=\"sessionForm\" (ngSubmit)=\"submit()\">\r\n        <mat-form-field appearance=\"outline\" class=\"\" fxFlex>\r\n          <mat-label>Name</mat-label>\r\n          <input matInput formControlName=\"name\">\r\n        </mat-form-field>\r\n        <mat-form-field appearance=\"outline\" fxFlex>\r\n          <mat-label>Date</mat-label>\r\n          <input matInput type=\"date\" formControlName=\"date\">\r\n        </mat-form-field>\r\n        <mat-form-field appearance=\"outline\">\r\n          <mat-label>Teacher</mat-label>\r\n          <mat-select ngDefaultControl formControlName=\"teacher_id\">\r\n            <mat-option *ngFor=\"let teacher of teachers$ | async\" [value]=\"teacher.id\">\r\n              {{teacher.firstName}} {{teacher.lastName}}\r\n            </mat-option>\r\n          </mat-select>\r\n        </mat-form-field>\r\n        <mat-form-field appearance=\"outline\" fxFlex>\r\n          <mat-label>Description</mat-label>\r\n          <textarea matInput rows=\"8\" formControlName=\"description\"></textarea>\r\n        </mat-form-field>\r\n        <div fxLayout=\"row\" fxLayoutAlign=\"center center\">\r\n          <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"sessionForm.invalid\">\r\n            Save\r\n          </button>\r\n        </div>\r\n      </form>\r\n    </mat-card-content>\r\n  </mat-card>\r\n</div>\r\n"
+        "import { Component, OnInit } from '@angular/core';\nimport { FormBuilder, FormGroup, Validators } from '@angular/forms';\nimport { MatSnackBar } from '@angular/material/snack-bar';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { SessionService } from '../../../../services/session.service';\nimport { TeacherService } from '../../../../services/teacher.service';\nimport { Session } from '../../interfaces/session.interface';\nimport { SessionApiService } from '../../services/session-api.service';\n\n@Component({\n  selector: 'app-form',\n  templateUrl: './form.component.html',\n  styleUrls: ['./form.component.scss']\n})\nexport class FormComponent implements OnInit {\n\n  public onUpdate: boolean = false;\n  public sessionForm: FormGroup | undefined;\n  public teachers$ = this.teacherService.all();\n  private id: string | undefined;\n\n  constructor(\n    private route: ActivatedRoute,\n    private fb: FormBuilder,\n    private matSnackBar: MatSnackBar,\n    private sessionApiService: SessionApiService,\n    private sessionService: SessionService,\n    private teacherService: TeacherService,\n    private router: Router\n  ) {\n  }\n\n  public ngOnInit(): void {\n    if (!this.sessionService.sessionInformation!.admin) {\n      this.router.navigate(['/sessions']);\n    }\n    const url = this.router.url;\n    if (url.includes('update')) {\n      this.onUpdate = true;\n      this.id = this.route.snapshot.paramMap.get('id')!;\n      this.sessionApiService\n        .detail(this.id)\n        .subscribe((session: Session) => this.initForm(session));\n    } else {\n      this.initForm();\n    }\n  }\n\n  public submit(): void {\n    const session = this.sessionForm?.value as Session;\n\n    if (!this.onUpdate) {\n      this.sessionApiService\n        .create(session)\n        .subscribe((_: Session) => this.exitPage('Session created !'));\n    } else {\n      this.sessionApiService\n        .update(this.id!, session)\n        .subscribe((_: Session) => this.exitPage('Session updated !'));\n    }\n  }\n\n  private initForm(session?: Session): void {\n    this.sessionForm = this.fb.group({\n      name: [\n        session ? session.name : '',\n        [Validators.required]\n      ],\n      date: [\n        session ? new Date(session.date).toISOString().split('T')[0] : '',\n        [Validators.required]\n      ],\n      teacher_id: [\n        session ? session.teacher_id : '',\n        [Validators.required]\n      ],\n      description: [\n        session ? session.description : '',\n        [\n          Validators.required,\n          Validators.max(2000)\n        ]\n      ],\n    });\n  }\n\n  private exitPage(message: string): void {\n    this.matSnackBar.open(message, 'Close', { duration: 3000 });\n    this.router.navigate(['sessions']);\n  }\n}\n",
+        "<div class=\"create m3\">\n  <mat-card>\n    <mat-card-title>\n      <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\n        <button mat-icon-button routerLink=\"/sessions\">\n          <mat-icon>arrow_back</mat-icon>\n        </button>\n        <h1 *ngIf=\"!onUpdate\">Create session</h1>\n        <h1 *ngIf=\"onUpdate\">Update session</h1>\n      </div>\n    </mat-card-title>\n    <mat-card-content *ngIf=\"sessionForm\">\n      <form class=\"mt2\" fxLayout=\"column\" [formGroup]=\"sessionForm\" (ngSubmit)=\"submit()\">\n        <mat-form-field appearance=\"outline\" class=\"\" fxFlex>\n          <mat-label>Name</mat-label>\n          <input matInput formControlName=\"name\">\n        </mat-form-field>\n        <mat-form-field appearance=\"outline\" fxFlex>\n          <mat-label>Date</mat-label>\n          <input matInput type=\"date\" formControlName=\"date\">\n        </mat-form-field>\n        <mat-form-field appearance=\"outline\">\n          <mat-label>Teacher</mat-label>\n          <mat-select ngDefaultControl formControlName=\"teacher_id\">\n            <mat-option *ngFor=\"let teacher of teachers$ | async\" [value]=\"teacher.id\">\n              {{teacher.firstName}} {{teacher.lastName}}\n            </mat-option>\n          </mat-select>\n        </mat-form-field>\n        <mat-form-field appearance=\"outline\" fxFlex>\n          <mat-label>Description</mat-label>\n          <textarea matInput rows=\"8\" formControlName=\"description\"></textarea>\n        </mat-form-field>\n        <div fxLayout=\"row\" fxLayoutAlign=\"center center\">\n          <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"sessionForm.invalid\">\n            Save\n          </button>\n        </div>\n      </form>\n    </mat-card-content>\n  </mat-card>\n</div>\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "92c14059cdb28bd2cb607ebf33bd96c9652ed222"
+    "hash": "39bc671a99b108cf07765c5512bd15feba9cbdc7"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/list/list.component.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/list/list.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -15906,7 +15906,7 @@
       }
     },
     "s": {
-      "0": 184,
+      "0": 154,
       "1": 20,
       "2": 20,
       "3": 20,
@@ -15914,63 +15914,63 @@
       "5": 20,
       "6": 20,
       "7": 23,
-      "8": 32,
-      "9": 96,
-      "10": 32,
-      "11": 32,
-      "12": 32,
-      "13": 32,
-      "14": 32,
-      "15": 32,
-      "16": 96,
-      "17": 64,
-      "18": 64,
+      "8": 26,
+      "9": 84,
+      "10": 26,
+      "11": 26,
+      "12": 26,
+      "13": 26,
+      "14": 26,
+      "15": 26,
+      "16": 84,
+      "17": 58,
+      "18": 58,
       "19": 23,
-      "20": 38,
-      "21": 114,
-      "22": 38,
-      "23": 38,
-      "24": 38,
-      "25": 38,
-      "26": 38,
-      "27": 38,
-      "28": 38,
-      "29": 38,
-      "30": 38,
-      "31": 38,
-      "32": 38,
-      "33": 38,
-      "34": 38,
-      "35": 38,
-      "36": 38,
-      "37": 38,
-      "38": 38,
-      "39": 38,
-      "40": 38,
-      "41": 38,
-      "42": 38,
-      "43": 114,
-      "44": 76,
-      "45": 76,
-      "46": 76,
-      "47": 76,
-      "48": 76,
-      "49": 76,
-      "50": 76,
-      "51": 76,
-      "52": 76,
-      "53": 76,
-      "54": 76,
-      "55": 76,
+      "20": 30,
+      "21": 96,
+      "22": 30,
+      "23": 30,
+      "24": 30,
+      "25": 30,
+      "26": 30,
+      "27": 30,
+      "28": 30,
+      "29": 30,
+      "30": 30,
+      "31": 30,
+      "32": 30,
+      "33": 30,
+      "34": 30,
+      "35": 30,
+      "36": 30,
+      "37": 30,
+      "38": 30,
+      "39": 30,
+      "40": 30,
+      "41": 30,
+      "42": 30,
+      "43": 96,
+      "44": 66,
+      "45": 66,
+      "46": 66,
+      "47": 66,
+      "48": 66,
+      "49": 66,
+      "50": 66,
+      "51": 66,
+      "52": 66,
+      "53": 66,
+      "54": 66,
+      "55": 66,
       "56": 23,
       "57": 29,
       "58": 29,
       "59": 29,
-      "60": 318,
+      "60": 251,
       "61": 23,
       "62": 29,
       "63": 23,
-      "64": 271,
+      "64": 214,
       "65": 29,
       "66": 29,
       "67": 29,
@@ -15980,45 +15980,45 @@
       "71": 29,
       "72": 29,
       "73": 29,
-      "74": 271,
-      "75": 242,
-      "76": 242,
-      "77": 242,
-      "78": 242,
+      "74": 214,
+      "75": 185,
+      "76": 185,
+      "77": 185,
+      "78": 185,
       "79": 23
     },
     "f": {
-      "0": 184,
-      "1": 32,
-      "2": 96,
-      "3": 38,
-      "4": 114,
+      "0": 154,
+      "1": 26,
+      "2": 84,
+      "3": 30,
+      "4": 96,
       "5": 23,
       "6": 29,
-      "7": 318,
+      "7": 251,
       "8": 29,
-      "9": 271
+      "9": 214
     },
     "b": {
       "0": [
         20,
-        164
+        134
       ],
       "1": [
-        32,
-        64
+        26,
+        58
       ],
       "2": [
-        64,
-        32
+        58,
+        26
       ],
       "3": [
-        38,
-        76
+        30,
+        66
       ],
       "4": [
-        76,
-        38
+        66,
+        30
       ],
       "5": [
         29,
@@ -16026,10 +16026,10 @@
       ],
       "6": [
         29,
-        242
+        185
       ],
       "7": [
-        242,
+        185,
         29
       ]
     },
@@ -16053,19 +16053,19 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.html",
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/list/list.component.html",
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/components/list/list.component.ts"
       ],
       "sourcesContent": [
-        "<div class=\"list\">\r\n  <mat-card>\r\n    <mat-card-header fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n      <mat-card-title class=\"m0\">Rentals available</mat-card-title>\r\n      <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\" routerLink=\"create\" data-testid=\"create\">\r\n        <mat-icon>add</mat-icon>\r\n        <span class=\"ml1\">Create</span>\r\n      </button>\r\n    </mat-card-header>\r\n    <div class=\"items mt2\" fxLayout=\"row wrap\" fxLayout.lt-md=\"column\">\r\n      <mat-card class=\"item\" *ngFor=\"let session of (sessions$ | async)\" fxFlex>\r\n        <mat-card-header>\r\n          <mat-card-title>{{ session.name }}</mat-card-title>\r\n          <mat-card-subtitle>\r\n            Session on {{ session.date | date: 'longDate'}}\r\n          </mat-card-subtitle>\r\n        </mat-card-header>\r\n        <div mat-card-image fxLayoutAlign=\"center center\">\r\n          <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\r\n        </div>\r\n        <mat-card-content>\r\n          <p>\r\n            {{ session.description }}\r\n          </p>\r\n        </mat-card-content>\r\n        <mat-card-actions>\r\n          <button mat-raised-button color=\"primary\" [routerLink]=\"['detail',session.id]\">\r\n            <mat-icon>search</mat-icon>\r\n            <span class=\"ml1\">Detail</span>\r\n          </button>\r\n          <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\" data-testid=\"edit\" [routerLink]=\"['update',session.id]\">\r\n            <mat-icon>edit</mat-icon>\r\n            <span class=\"ml1\">Edit</span>\r\n          </button>\r\n        </mat-card-actions>\r\n      </mat-card>\r\n    </div>\r\n  </mat-card>\r\n</div>\r\n",
-        "import { Component } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { SessionInformation } from '../../../../interfaces/sessionInformation.interface';\r\nimport { SessionService } from '../../../../services/session.service';\r\nimport { Session } from '../../interfaces/session.interface';\r\nimport { SessionApiService } from '../../services/session-api.service';\r\n\r\n@Component({\r\n  selector: 'app-list',\r\n  templateUrl: './list.component.html',\r\n  styleUrls: ['./list.component.scss']\r\n})\r\nexport class ListComponent {\r\n\r\n  public sessions$: Observable<Session[]> = this.sessionApiService.all();\r\n\r\n  constructor(\r\n    private sessionService: SessionService,\r\n    private sessionApiService: SessionApiService\r\n  ) { }\r\n\r\n  get user(): SessionInformation | undefined {\r\n    return this.sessionService.sessionInformation;\r\n  }\r\n}\r\n"
+        "<div class=\"list\">\n  <mat-card>\n    <mat-card-header fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n      <mat-card-title class=\"m0\">Rentals available</mat-card-title>\n      <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\" routerLink=\"create\" data-testid=\"create\">\n        <mat-icon>add</mat-icon>\n        <span class=\"ml1\">Create</span>\n      </button>\n    </mat-card-header>\n    <div class=\"items mt2\" fxLayout=\"row wrap\" fxLayout.lt-md=\"column\">\n      <mat-card class=\"item\" *ngFor=\"let session of (sessions$ | async)\" fxFlex>\n        <mat-card-header>\n          <mat-card-title>{{ session.name }}</mat-card-title>\n          <mat-card-subtitle>\n            Session on {{ session.date | date: 'longDate'}}\n          </mat-card-subtitle>\n        </mat-card-header>\n        <div mat-card-image fxLayoutAlign=\"center center\">\n          <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\n        </div>\n        <mat-card-content>\n          <p>\n            {{ session.description }}\n          </p>\n        </mat-card-content>\n        <mat-card-actions>\n          <button mat-raised-button color=\"primary\" [routerLink]=\"['detail',session.id]\">\n            <mat-icon>search</mat-icon>\n            <span class=\"ml1\">Detail</span>\n          </button>\n          <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\" data-testid=\"edit\" [routerLink]=\"['update',session.id]\">\n            <mat-icon>edit</mat-icon>\n            <span class=\"ml1\">Edit</span>\n          </button>\n        </mat-card-actions>\n      </mat-card>\n    </div>\n  </mat-card>\n</div>\n",
+        "import { Component } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { SessionInformation } from '../../../../interfaces/sessionInformation.interface';\nimport { SessionService } from '../../../../services/session.service';\nimport { Session } from '../../interfaces/session.interface';\nimport { SessionApiService } from '../../services/session-api.service';\n\n@Component({\n  selector: 'app-list',\n  templateUrl: './list.component.html',\n  styleUrls: ['./list.component.scss']\n})\nexport class ListComponent {\n\n  public sessions$: Observable<Session[]> = this.sessionApiService.all();\n\n  constructor(\n    private sessionService: SessionService,\n    private sessionApiService: SessionApiService\n  ) { }\n\n  get user(): SessionInformation | undefined {\n    return this.sessionService.sessionInformation;\n  }\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "e16c2070c53ab4926c9c6414a80a4f8647de75de"
+    "hash": "3e991f33e02e6525fa66fc522c8b36e7cb87000e"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/sessions-routing.module.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/sessions-routing.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -16262,17 +16262,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/sessions-routing.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { DetailComponent } from './components/detail/detail.component';\r\nimport { FormComponent } from './components/form/form.component';\r\nimport { ListComponent } from './components/list/list.component';\r\n\r\nconst routes: Routes = [\r\n  { path: '', title: 'Sessions', component: ListComponent },\r\n  { path: 'detail/:id', title: 'Sessions - detail', component: DetailComponent },\r\n  { path: 'create', title: 'Sessions - create', component: FormComponent },\r\n  { path: 'update/:id', title: 'Sessions - update', component: FormComponent }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forChild(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class SessionsRoutingModule {\r\n}\r\n"
+        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { DetailComponent } from './components/detail/detail.component';\nimport { FormComponent } from './components/form/form.component';\nimport { ListComponent } from './components/list/list.component';\n\nconst routes: Routes = [\n  { path: '', title: 'Sessions', component: ListComponent },\n  { path: 'detail/:id', title: 'Sessions - detail', component: DetailComponent },\n  { path: 'create', title: 'Sessions - create', component: FormComponent },\n  { path: 'update/:id', title: 'Sessions - update', component: FormComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class SessionsRoutingModule {\n}\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "4d2a0d34d96e1ff08bc47d3fadaa3b609d3d1629"
+    "hash": "3c3e5dc51097b684d43c3008e3347b5f04e0b424"
   },
-  "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions.module.ts": {
-    "path": "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions.module.ts",
+  "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/sessions.module.ts": {
+    "path": "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/sessions.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -16485,13 +16485,13 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\louma\\Documents\\Mirror\\OC - Formation Full-Stack\\Projet 5\\dev-folder\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions.module.ts"
+        "/home/jacki65/Documents/dev/OC_Projet-5_Test/front/src/app/features/sessions/sessions.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\r\nimport { CommonModule, registerLocaleData } from '@angular/common';\r\nimport { FlexLayoutModule } from '@angular/flex-layout';\r\nimport { ReactiveFormsModule } from '@angular/forms';\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { MatFormFieldModule } from '@angular/material/form-field';\r\nimport { MatIconModule } from '@angular/material/icon';\r\nimport { MatInputModule } from '@angular/material/input';\r\nimport { MatSelectModule } from '@angular/material/select';\r\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\r\nimport { ListComponent } from './components/list/list.component';\r\nimport { FormComponent } from './components/form/form.component';\r\nimport { DetailComponent } from './components/detail/detail.component';\r\nimport { SessionsRoutingModule } from './sessions-routing.module';\r\nimport localeFr from '@angular/common/locales/fr';\r\nregisterLocaleData(localeFr);\r\n\r\nconst materialModules = [\r\n  MatButtonModule,\r\n  MatCardModule,\r\n  MatFormFieldModule,\r\n  MatIconModule,\r\n  MatInputModule,\r\n  MatSnackBarModule,\r\n  MatSelectModule\r\n];\r\n\r\n@NgModule({\r\n  declarations: [\r\n    ListComponent,\r\n    FormComponent,\r\n    DetailComponent\r\n  ],\r\n  imports: [\r\n    CommonModule,\r\n    FlexLayoutModule,\r\n    ReactiveFormsModule,\r\n    SessionsRoutingModule,\r\n    ...materialModules\r\n  ]\r\n})\r\nexport class SessionsModule { }\r\n"
+        "import { NgModule } from '@angular/core';\nimport { CommonModule, registerLocaleData } from '@angular/common';\nimport { FlexLayoutModule } from '@angular/flex-layout';\nimport { ReactiveFormsModule } from '@angular/forms';\nimport { MatButtonModule } from '@angular/material/button';\nimport { MatCardModule } from '@angular/material/card';\nimport { MatFormFieldModule } from '@angular/material/form-field';\nimport { MatIconModule } from '@angular/material/icon';\nimport { MatInputModule } from '@angular/material/input';\nimport { MatSelectModule } from '@angular/material/select';\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\nimport { ListComponent } from './components/list/list.component';\nimport { FormComponent } from './components/form/form.component';\nimport { DetailComponent } from './components/detail/detail.component';\nimport { SessionsRoutingModule } from './sessions-routing.module';\nimport localeFr from '@angular/common/locales/fr';\nregisterLocaleData(localeFr);\n\nconst materialModules = [\n  MatButtonModule,\n  MatCardModule,\n  MatFormFieldModule,\n  MatIconModule,\n  MatInputModule,\n  MatSnackBarModule,\n  MatSelectModule\n];\n\n@NgModule({\n  declarations: [\n    ListComponent,\n    FormComponent,\n    DetailComponent\n  ],\n  imports: [\n    CommonModule,\n    FlexLayoutModule,\n    ReactiveFormsModule,\n    SessionsRoutingModule,\n    ...materialModules\n  ]\n})\nexport class SessionsModule { }\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "510e0d92030283c1d7f38570393c7b09aa5911fa"
+    "hash": "e7f3c3b0fb55910b65c01db31b3ee4cb7af32c28"
   }
 }
